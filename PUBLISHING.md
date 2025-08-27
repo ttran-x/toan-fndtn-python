@@ -1,80 +1,62 @@
 # Publishing Guide
 
-This repository provides several ways to publish the `toan-fndtn` Python package.
+This repository publishes the `toan-fndtn` Python package **only to GitHub releases**, not to PyPI.
 
-## Option 1: Manual Publishing to PyPI
+## Publishing Method: GitHub Releases Only
 
-### Prerequisites
-1. Obtain a PyPI API token from https://pypi.org/manage/account/
-2. Set the token as an environment variable: `export PYPI_TOKEN="your-token-here"`
+### Automatic Publishing via GitHub Actions
 
-### Steps
-```bash
-# Build the package
-uv build
+#### Setup (One-time)
+No additional secrets required - uses built-in `GITHUB_TOKEN`.
 
-# Publish using the existing script
-./scripts/publish.sh
-```
+#### Publishing Process
+1. **Create a new release** on GitHub:
+   - Go to your repository → Releases → "Create a new release"
+   - Choose a tag (e.g., `v0.0.3`)
+   - Add release title and description
+   - Click "Publish release"
 
-Or manually:
-```bash
-# Install twine if not already installed
-uv tool install twine
+2. **Automatic workflow execution**:
+   - GitHub Actions will automatically trigger
+   - Build the package using `uv build`
+   - Attach the built files (.whl and .tar.gz) to the release
 
-# Upload to PyPI
-uv tool run twine upload --username __token__ --password $PYPI_TOKEN dist/*
-```
-
-## Option 2: GitHub Actions Publishing
-
-### Setup
-1. Add your PyPI token as a GitHub repository secret named `PYPI_TOKEN`
-2. Go to Settings → Secrets and variables → Actions → New repository secret
-
-### Automatic Publishing
-- **On Release**: Create a new release on GitHub, and the package will automatically be published to PyPI
-- **Manual Trigger**: Go to Actions → "Build and Publish Package" → "Run workflow"
-
-### Publishing Process
-The GitHub Action will:
-1. Build the package using `uv build`
-2. Attach the built files (.whl and .tar.gz) to the GitHub release
-3. Publish to PyPI using your `PYPI_TOKEN`
-
-## Option 3: GitHub Releases Only
-
-If you only want to distribute via GitHub releases without publishing to PyPI:
-
-1. Create a new release on GitHub
-2. The workflow will automatically attach the built package files
-3. Users can download and install directly from the release
+#### Manual Trigger
+- Go to Actions → "Build and Publish to GitHub" → "Run workflow"
+- This will build the package and upload as workflow artifacts (for testing)
 
 ## Installation for Users
 
-Once published, users can install the package:
+Since this package is only available on GitHub, users can install it in several ways:
 
-### From PyPI
+### From GitHub Release (Recommended)
 ```bash
-pip install toan-fndtn
-# or
-uv add toan-fndtn
-```
-
-### From GitHub Release
-```bash
+# Replace v0.0.2 with the desired version
 pip install https://github.com/ttran-x/toan-fndtn-python/releases/download/v0.0.2/toan_fndtn-0.0.2-py3-none-any.whl
 ```
 
 ### From Git Repository
 ```bash
+# Latest from main branch
 pip install git+https://github.com/ttran-x/toan-fndtn-python.git
-# or
+
+# Specific release tag
+pip install git+https://github.com/ttran-x/toan-fndtn-python.git@v0.0.2
+
+# Using uv (modern Python package manager)
 uv add git+https://github.com/ttran-x/toan-fndtn-python.git
 ```
 
 ## Version Management
 
-- Update the version in `pyproject.toml`
-- Create a new release with the corresponding tag (e.g., `v0.0.3`)
-- The version should match between the file and the release tag
+1. Update the version in `pyproject.toml`
+2. Create a new release with the corresponding tag (e.g., `v0.0.3`)
+3. The version should match between the file and the release tag
+
+## Why GitHub-Only?
+
+This repository is configured for GitHub-only distribution because:
+- No PyPI account/token management needed
+- Direct control over distribution
+- Easy integration with GitHub's release system
+- Users can install directly from GitHub using pip/uv

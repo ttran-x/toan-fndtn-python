@@ -1,22 +1,15 @@
-name: Build and Publish Package
+name: Build and Publish to GitHub
 
 on:
   release:
     types: [published]
   workflow_dispatch:
-    inputs:
-      publish_to_pypi:
-        description: 'Publish to PyPI'
-        required: false
-        default: 'true'
-        type: boolean
 
 jobs:
   build-and-publish:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      packages: write
 
     steps:
     - name: Checkout code
@@ -43,11 +36,9 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-    - name: Publish to PyPI
-      if: github.event.inputs.publish_to_pypi == 'true' || github.event_name == 'release'
-      env:
-        TWINE_USERNAME: __token__
-        TWINE_PASSWORD: ${{ secrets.PYPI_TOKEN }}
-      run: |
-        uv tool install twine
-        uv tool run twine upload dist/*
+    - name: Upload build artifacts as workflow artifacts
+      if: github.event_name == 'workflow_dispatch'
+      uses: actions/upload-artifact@v4
+      with:
+        name: python-package-distributions
+        path: dist/
