@@ -1,0 +1,26 @@
+# StorageLevel
+
+Storage level.
+
+
+## Values
+
+| Name                        | Value                       |
+| --------------------------- | --------------------------- |
+| `MEMORY_ONLY`               | MEMORY_ONLY                 |
+| `MEMORY_AND_DISK`           | MEMORY_AND_DISK             |
+| `MEMORY_ONLY_SER`           | MEMORY_ONLY_SER             |
+| `MEMORY_AND_DISK_SER`       | MEMORY_AND_DISK_SER         |
+| `DISK_ONLY`                 | DISK_ONLY                   |
+| `MEMORY_ONLY_2`             | MEMORY_ONLY_2               |
+| `MEMORY_AND_DISK_2`         | MEMORY_AND_DISK_2           |
+| `DISK_ONLY_2`               | DISK_ONLY_2                 |
+| `MEMORY_ONLY_SER_2`         | MEMORY_ONLY_SER_2           |
+| `MEMORY_AND_DISK_SER_2`     | MEMORY_AND_DISK_SER_2       |
+| `DISK_ONLY_SER_2`           | DISK_ONLY_SER_2             |
+| `MEMORY_ONLY_2_SER`         | MEMORY_ONLY_2_SER           |
+| `MEMORY_AND_DISK_2_SER`     | MEMORY_AND_DISK_2_SER       |
+| `DISK_ONLY_2_SER`           | DISK_ONLY_2_SER             |
+| `MEMORY_ONLY_SER_2_SER`     | MEMORY_ONLY_SER_2_SER       |
+| `MEMORY_AND_DISK_SER_2_SER` | MEMORY_AND_DISK_SER_2_SER   |
+| `DISK_ONLY_SER_2_SER`       | DISK_ONLY_SER_2_SER         |

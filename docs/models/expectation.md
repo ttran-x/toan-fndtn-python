@@ -1,0 +1,15 @@
+# Expectation
+
+Expectation.
+
+
+## Fields
+
+| Field                                                                                | Type                                                                                 | Required                                                                             | Description                                                                          |
+| ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ |
+| `id`                                                                                 | *str*                                                                                | :heavy_check_mark:                                                                   | N/A                                                                                  |
+| `entity`                                                                             | *str*                                                                                | :heavy_check_mark:                                                                   | N/A                                                                                  |
+| `expectations`                                                                       | [models.ExpectationDetails](../models/expectationdetails.md)                         | :heavy_check_mark:                                                                   | Expectation details.                                                                 |
+| `weights`                                                                            | [OptionalNullable[models.ExpectationWeights]](../models/expectationweights.md)       | :heavy_minus_sign:                                                                   | N/A                                                                                  |
+| `thresholds`                                                                         | [OptionalNullable[models.ExpectationThresholds]](../models/expectationthresholds.md) | :heavy_minus_sign:                                                                   | N/A                                                                                  |
+| `created_at`                                                                         | [date](https://docs.python.org/3/library/datetime.html#date-objects)                 | :heavy_check_mark:                                                                   | N/A                                                                                  |

@@ -1,0 +1,11 @@
+# DataSourceConnectionResponse
+
+DataSource connection response.
+
+
+## Fields
+
+| Field                                                                                                                  | Type                                                                                                                   | Required                                                                                                               | Description                                                                                                            |
+| ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| `connection`                                                                                                           | [OptionalNullable[models.DataSourceConnectionResponseConnection]](../models/datasourceconnectionresponseconnection.md) | :heavy_minus_sign:                                                                                                     | N/A                                                                                                                    |
+| `secrets`                                                                                                              | List[[models.Secret](../models/secret.md)]                                                                             | :heavy_minus_sign:                                                                                                     | N/A                                                                                                                    |

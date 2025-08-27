@@ -1,0 +1,39 @@
+speakeasyVersion: 1.606.5
+sources:
+    FNDTN Backend:
+        sourceNamespace: fndtn-backend
+        sourceRevisionDigest: sha256:54ed0d465343c3b09225e012df6b5913b575420a5d5c8993811c7f06664ba0b9
+        sourceBlobDigest: sha256:fc10af724a91d8f14f8c10434aed943fb5c9a61ec759903e4585712eacda9378
+        tags:
+            - latest
+            - 3.0.1
+targets:
+    toan-fndtn:
+        source: FNDTN Backend
+        sourceNamespace: fndtn-backend
+        sourceRevisionDigest: sha256:54ed0d465343c3b09225e012df6b5913b575420a5d5c8993811c7f06664ba0b9
+        sourceBlobDigest: sha256:fc10af724a91d8f14f8c10434aed943fb5c9a61ec759903e4585712eacda9378
+        codeSamplesNamespace: fndtn-backend-python-code-samples
+        codeSamplesRevisionDigest: sha256:e93969724a4dd04f644ebffc4fc187103405d865ddab42d6f266eb159552af3a
+workflow:
+    workflowVersion: 1.0.0
+    speakeasyVersion: latest
+    sources:
+        FNDTN Backend:
+            inputs:
+                - location: ../openapi.json
+            transformations:
+                - removeUnused: true
+            output: .speakeasy/out.openapi.yaml
+            registry:
+                location: registry.speakeasyapi.dev/toan/sample/fndtn-backend
+    targets:
+        toan-fndtn:
+            target: python
+            source: FNDTN Backend
+            codeSamples:
+                registry:
+                    location: registry.speakeasyapi.dev/toan/sample/fndtn-backend-python-code-samples
+                labelOverride:
+                    fixedValue: Python (SDK)
+                blocking: false

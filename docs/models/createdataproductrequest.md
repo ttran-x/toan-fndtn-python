@@ -1,0 +1,13 @@
+# CreateDataProductRequest
+
+Create data product entity request
+
+
+## Fields
+
+| Field                                                                                          | Type                                                                                           | Required                                                                                       | Description                                                                                    |
+| ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| `entity`                                                                                       | [models.BackendDataSchemaCommonCreateEntity](../models/backenddataschemacommoncreateentity.md) | :heavy_check_mark:                                                                             | Create entity.                                                                                 |
+| `entity_info`                                                                                  | [OptionalNullable[models.EntityInfo]](../models/entityinfo.md)                                 | :heavy_minus_sign:                                                                             | N/A                                                                                            |
+| `parent`                                                                                       | [OptionalNullable[models.EntityParent]](../models/entityparent.md)                             | :heavy_minus_sign:                                                                             | N/A                                                                                            |
+| `host_mesh_identifier`                                                                         | *OptionalNullable[str]*                                                                        | :heavy_minus_sign:                                                                             | N/A                                                                                            |

@@ -1,0 +1,23 @@
+# Validation
+
+Validation.
+
+
+## Fields
+
+| Field                                                                | Type                                                                 | Required                                                             | Description                                                          |
+| -------------------------------------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| `id`                                                                 | *str*                                                                | :heavy_check_mark:                                                   | N/A                                                                  |
+| `expectations_id`                                                    | *str*                                                                | :heavy_check_mark:                                                   | N/A                                                                  |
+| `entity`                                                             | *str*                                                                | :heavy_check_mark:                                                   | N/A                                                                  |
+| `success`                                                            | *bool*                                                               | :heavy_check_mark:                                                   | N/A                                                                  |
+| `success_percent`                                                    | *float*                                                              | :heavy_check_mark:                                                   | N/A                                                                  |
+| `table_score`                                                        | *int*                                                                | :heavy_check_mark:                                                   | N/A                                                                  |
+| `column_score`                                                       | *str*                                                                | :heavy_check_mark:                                                   | N/A                                                                  |
+| `success_expectations`                                               | *int*                                                                | :heavy_check_mark:                                                   | N/A                                                                  |
+| `failed_expectations`                                                | *int*                                                                | :heavy_check_mark:                                                   | N/A                                                                  |
+| `total_expectations`                                                 | *int*                                                                | :heavy_check_mark:                                                   | N/A                                                                  |
+| `result`                                                             | *str*                                                                | :heavy_check_mark:                                                   | N/A                                                                  |
+| `table_stats`                                                        | *str*                                                                | :heavy_check_mark:                                                   | N/A                                                                  |
+| `column_stats`                                                       | *str*                                                                | :heavy_check_mark:                                                   | N/A                                                                  |
+| `created_at`                                                         | [date](https://docs.python.org/3/library/datetime.html#date-objects) | :heavy_check_mark:                                                   | N/A                                                                  |

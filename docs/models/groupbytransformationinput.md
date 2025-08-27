@@ -1,0 +1,14 @@
+# GroupByTransformationInput
+
+Group by transformation.
+
+
+## Fields
+
+| Field                                                                                                | Type                                                                                                 | Required                                                                                             | Description                                                                                          |
+| ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| `transform`                                                                                          | *Literal["group_by"]*                                                                                | :heavy_check_mark:                                                                                   | N/A                                                                                                  |
+| `input`                                                                                              | *str*                                                                                                | :heavy_check_mark:                                                                                   | N/A                                                                                                  |
+| `output`                                                                                             | *str*                                                                                                | :heavy_check_mark:                                                                                   | N/A                                                                                                  |
+| `group_columns`                                                                                      | List[*str*]                                                                                          | :heavy_check_mark:                                                                                   | N/A                                                                                                  |
+| `aggregations`                                                                                       | [models.GroupByTransformationInputAggregations](../models/groupbytransformationinputaggregations.md) | :heavy_check_mark:                                                                                   | N/A                                                                                                  |

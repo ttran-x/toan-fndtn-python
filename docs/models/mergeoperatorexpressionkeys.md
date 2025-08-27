@@ -1,0 +1,14 @@
+# MergeOperatorExpressionKeys
+
+Merge operator expression for keys.
+
+
+## Fields
+
+| Field                                                                                    | Type                                                                                     | Required                                                                                 | Description                                                                              |
+| ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| `left_type`                                                                              | [models.LeftType](../models/lefttype.md)                                                 | :heavy_check_mark:                                                                       | Left type of the left field.                                                             |
+| `left_side`                                                                              | *str*                                                                                    | :heavy_check_mark:                                                                       | N/A                                                                                      |
+| `operator`                                                                               | [OptionalNullable[models.MergeComparisonOperator]](../models/mergecomparisonoperator.md) | :heavy_minus_sign:                                                                       | N/A                                                                                      |
+| `right_side`                                                                             | *str*                                                                                    | :heavy_check_mark:                                                                       | N/A                                                                                      |
+| `right_type`                                                                             | [models.RightType](../models/righttype.md)                                               | :heavy_check_mark:                                                                       | Right type of the right field.                                                           |

@@ -1,0 +1,13 @@
+# SortTransformationOutput
+
+Sort transformation.
+
+
+## Fields
+
+| Field                                                                                          | Type                                                                                           | Required                                                                                       | Description                                                                                    |
+| ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| `transform`                                                                                    | *Literal["sort"]*                                                                              | :heavy_check_mark:                                                                             | N/A                                                                                            |
+| `input`                                                                                        | *str*                                                                                          | :heavy_check_mark:                                                                             | N/A                                                                                            |
+| `output`                                                                                       | *str*                                                                                          | :heavy_check_mark:                                                                             | N/A                                                                                            |
+| `sort_columns`                                                                                 | [models.SortTransformationOutputSortColumns](../models/sorttransformationoutputsortcolumns.md) | :heavy_check_mark:                                                                             | N/A                                                                                            |

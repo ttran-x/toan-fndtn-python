@@ -1,0 +1,14 @@
+# BuilderPipelineOutput
+
+BuilderPipeline model.
+
+
+## Fields
+
+| Field                                                                                                | Type                                                                                                 | Required                                                                                             | Description                                                                                          |
+| ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| `config`                                                                                             | [models.OptionalSparkConfig](../models/optionalsparkconfig.md)                                       | :heavy_check_mark:                                                                                   | OptionalSparkConfig model.                                                                           |
+| `inputs`                                                                                             | [models.BuilderPipelineOutputInputs](../models/builderpipelineoutputinputs.md)                       | :heavy_check_mark:                                                                                   | N/A                                                                                                  |
+| `transformations`                                                                                    | List[[models.BuilderPipelineOutputTransformation](../models/builderpipelineoutputtransformation.md)] | :heavy_check_mark:                                                                                   | N/A                                                                                                  |
+| `finalisers`                                                                                         | [models.FinalisersOutput](../models/finalisersoutput.md)                                             | :heavy_check_mark:                                                                                   | Finalisers model.                                                                                    |
+| `preview`                                                                                            | *Optional[bool]*                                                                                     | :heavy_minus_sign:                                                                                   | N/A                                                                                                  |

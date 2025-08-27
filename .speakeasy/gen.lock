@@ -1,0 +1,3672 @@
+lockVersion: 2.0.0
+id: 5e7f63da-3884-4bce-9ee7-12c6df8ba3eb
+management:
+  docChecksum: ef2dbb9f0c56e10100180db39cff7235
+  docVersion: 3.0.1
+  speakeasyVersion: 1.606.5
+  generationVersion: 2.687.1
+  releaseVersion: 0.0.2
+  configChecksum: 71fb8188326588a821dd294dcc63f7fd
+features:
+  python:
+    additionalDependencies: 1.0.0
+    constsAndDefaults: 1.0.5
+    core: 5.19.9
+    defaultEnabledRetries: 0.2.0
+    devContainers: 3.0.0
+    enumUnions: 0.1.0
+    envVarSecurityUsage: 0.3.2
+    flatRequests: 1.0.1
+    flattening: 3.1.1
+    globalSecurity: 3.0.3
+    globalSecurityCallbacks: 1.0.0
+    globalSecurityFlattening: 1.0.0
+    globalServerURLs: 3.1.1
+    methodArguments: 1.0.2
+    multipartFileContentType: 1.0.0
+    nullables: 1.0.1
+    responseFormat: 1.0.1
+    retries: 3.0.2
+    sdkHooks: 1.1.0
+    unions: 3.0.4
+    uploadStreams: 1.0.0
+generatedFiles:
+  - .devcontainer/README.md
+  - .devcontainer/devcontainer.json
+  - .devcontainer/setup.sh
+  - .gitattributes
+  - .vscode/settings.json
+  - USAGE.md
+  - docs/errors/httpvalidationerror.md
+  - docs/models/action.md
+  - docs/models/addcurrenttimestamptransformation.md
+  - docs/models/addcustomexpectationapidatadataproductqualityexpectationcustompostrequest.md
+  - docs/models/adddatasourcesecretapidatadatasourcesecretpostrequest.md
+  - docs/models/addentitymetadataapidatadataobjectmetadatapostrequest.md
+  - docs/models/addentitymetadataapidatadataproductmetadatapostrequest.md
+  - docs/models/addprincipalsintoroleapiiamprincipalrolememberpostrequest.md
+  - docs/models/addtagapidatatagpostrequest.md
+  - docs/models/adminchangepassword.md
+  - docs/models/adminchangeuserpasswordapiiamadminuseruseridpasswordpostrequest.md
+  - docs/models/appendconfig.md
+  - docs/models/applicationdataproductparententity.md
+  - docs/models/applicationentity.md
+  - docs/models/applicationentitylist.md
+  - docs/models/applicationentitywithowner.md
+  - docs/models/applicationforqueryentity.md
+  - docs/models/applicationforquerylist.md
+  - docs/models/applicationresponse.md
+  - docs/models/assignee.md
+  - docs/models/backenddataconstantsortdirection.md
+  - docs/models/backenddatamodelentitystate.md
+  - docs/models/backenddataschemaapplicationcreateentity.md
+  - docs/models/backenddataschemacommoncreateentity.md
+  - docs/models/backenddataschemacommonentitystate.md
+  - docs/models/backenddataschemacommonok.md
+  - docs/models/backenddataschemadatasystemcreateentity.md
+  - docs/models/backendiamschemaok.md
+  - docs/models/bodyupdatecomputefileapidatadataproductcomputefileput.md
+  - docs/models/browserolesapiiamprincipalrolelistgetrequest.md
+  - docs/models/builderpipelineinput.md
+  - docs/models/builderpipelineinputinputs.md
+  - docs/models/builderpipelineinputtransformation.md
+  - docs/models/builderpipelineoutput.md
+  - docs/models/builderpipelineoutputinputs.md
+  - docs/models/builderpipelineoutputtransformation.md
+  - docs/models/builderpipelinestate.md
+  - docs/models/castcolumn.md
+  - docs/models/casttransformationinput.md
+  - docs/models/casttransformationoutput.md
+  - docs/models/chainuniontransformation.md
+  - docs/models/changepassword.md
+  - docs/models/changepasswordapiiampasswordchangepostrequest.md
+  - docs/models/changes.md
+  - docs/models/classification.md
+  - docs/models/classificationlistresponse.md
+  - docs/models/classificationregexrecognizer.md
+  - docs/models/classificationresult.md
+  - docs/models/classificationresults.md
+  - docs/models/classificationrule.md
+  - docs/models/coalescecolumn.md
+  - docs/models/coalescepartitionstransformation.md
+  - docs/models/coalescetransformation.md
+  - docs/models/columntype.md
+  - docs/models/comparisonoperator.md
+  - docs/models/compute.md
+  - docs/models/computefile.md
+  - docs/models/computejobhistory.md
+  - docs/models/computejobtype.md
+  - docs/models/computeloglist.md
+  - docs/models/computeresponse.md
+  - docs/models/computerunhistory.md
+  - docs/models/concatenatetransformation.md
+  - docs/models/connectionsecret.md
+  - docs/models/connectorparquetparams.md
+  - docs/models/consumeformat.md
+  - docs/models/createaccesskeypairapiiamprincipaluserkeypairpostrequest.md
+  - docs/models/createapplicationrequest.md
+  - docs/models/createclassificationapidataclassificationpostrequest.md
+  - docs/models/createclassificationrequest.md
+  - docs/models/createdataobjectrequest.md
+  - docs/models/createdataobjectrequestconfiguration.md
+  - docs/models/createdataproductrequest.md
+  - docs/models/createdatasourcerequest.md
+  - docs/models/createdatasourcerequestconnection.md
+  - docs/models/createdatasystemrequest.md
+  - docs/models/createentityapidataapplicationpostrequest.md
+  - docs/models/createentityapidatadataobjectpostrequest.md
+  - docs/models/createentityapidatadataproductpostrequest.md
+  - docs/models/createentityapidatadatasourcepostrequest.md
+  - docs/models/createentityapidatadatasystempostrequest.md
+  - docs/models/createentityapidatameshpostrequest.md
+  - docs/models/createfielddefinition.md
+  - docs/models/createmeshentity.md
+  - docs/models/createmeshrequest.md
+  - docs/models/createorchestratorworkflow.md
+  - docs/models/createorchestratorworkflowapidataorchestratorworkflowpostrequest.md
+  - docs/models/createorganization.md
+  - docs/models/createorganizationapiiamorganizationpostrequest.md
+  - docs/models/createpolicy.md
+  - docs/models/createpolicyapiiampolicypostrequest.md
+  - docs/models/createroleapiiamprincipalrolepostrequest.md
+  - docs/models/createrolepolicyapiiampolicyrolepostrequest.md
+  - docs/models/createsensitivityapidatasensitivitypostrequest.md
+  - docs/models/createsensitivityrequest.md
+  - docs/models/createupdaterole.md
+  - docs/models/createuser.md
+  - docs/models/createuserapiiamprincipaluserpostrequest.md
+  - docs/models/createuserpolicyapiiampolicyuserpostrequest.md
+  - docs/models/createuserresponse.md
+  - docs/models/csvparams.md
+  - docs/models/custompythontransformation.md
+  - docs/models/databasedatasourceconnectiondetails.md
+  - docs/models/dataobjectconfigurationresponse.md
+  - docs/models/dataobjectconfigurationresponseconfiguration.md
+  - docs/models/dataobjectlist.md
+  - docs/models/dataobjectmetadataresponse.md
+  - docs/models/dataobjectmode.md
+  - docs/models/dataobjectresponse.md
+  - docs/models/dataobjectresponseconfiguration.md
+  - docs/models/dataobjectwithconfiguration.md
+  - docs/models/dataobjectwithconfigurationconfiguration.md
+  - docs/models/dataproductconsumersresponse.md
+  - docs/models/dataproductentitylist.md
+  - docs/models/dataproductentitywithowner.md
+  - docs/models/dataproductidentifierlist.md
+  - docs/models/dataproductmeshavailabilityrequest.md
+  - docs/models/dataproductmetadataresponse.md
+  - docs/models/dataproductparams.md
+  - docs/models/dataproductqualityoverview.md
+  - docs/models/dataproductresponse.md
+  - docs/models/dataproductshareapidatadataproductsharepostrequest.md
+  - docs/models/dataproductunshareapidatadataproductunsharepostrequest.md
+  - docs/models/datasourceconnectionresponse.md
+  - docs/models/datasourceconnectionresponseconnection.md
+  - docs/models/datasourcelist.md
+  - docs/models/datasourceresponse.md
+  - docs/models/datasourceresponseconnection.md
+  - docs/models/datasourcewithconnection.md
+  - docs/models/datasourcewithconnectionconnection.md
+  - docs/models/datasystementity.md
+  - docs/models/datasystementitylist.md
+  - docs/models/datasystementitywithowner.md
+  - docs/models/datasystemforqueryentity.md
+  - docs/models/datasystemforquerylist.md
+  - docs/models/datasystemresponse.md
+  - docs/models/deduplicatekeeptransformation.md
+  - docs/models/deduplicatetransformation.md
+  - docs/models/deduplicationkeep.md
+  - docs/models/deleteaccesskeypairapiiamprincipaluserkeypairdeleterequest.md
+  - docs/models/deleteapplicationlinkapidatalinkdataproductapplicationdeleterequest.md
+  - docs/models/deleteclassificationapidataclassificationdeleterequest.md
+  - docs/models/deleteclassificationbynameapidataclassificationnamedeleterequest.md
+  - docs/models/deletecomputefileapidatadataproductcomputefiledeleterequest.md
+  - docs/models/deletecustomexpectationapidatadataproductqualityexpectationcustomdeleterequest.md
+  - docs/models/deletedataapidatadataproductdatadeleterequest.md
+  - docs/models/deletedataproductlinkapidatalinkdataproductdataproductdeleterequest.md
+  - docs/models/deleteentityapidataapplicationdeleterequest.md
+  - docs/models/deleteentityapidatadataobjectdeleterequest.md
+  - docs/models/deleteentityapidatadataproductdeleterequest.md
+  - docs/models/deleteentityapidatadatasourcedeleterequest.md
+  - docs/models/deleteentityapidatadatasystemdeleterequest.md
+  - docs/models/deleteentityapidatameshdeleterequest.md
+  - docs/models/deleteentitylinkapidatalinkdataobjectdataproductdeleterequest.md
+  - docs/models/deleteentitylinkapidatalinkdatasourcedataobjectdeleterequest.md
+  - docs/models/deleteentitylinkapidatalinkdatasystemdatasourcedeleterequest.md
+  - docs/models/deleteentitymetadatarequest.md
+  - docs/models/deleteorchestratorworkflowapidataorchestratorworkflowdeleterequest.md
+  - docs/models/deleteorganizationapiiamorganizationdeleterequest.md
+  - docs/models/deletepolicyapiiampolicydeleterequest.md
+  - docs/models/deleteroleapiiamprincipalroledeleterequest.md
+  - docs/models/deleterolepolicyapiiampolicyroledeleterequest.md
+  - docs/models/deletesensitivityapidatasensitivitydeleterequest.md
+  - docs/models/deletesensitivitybynameapidatasensitivitynamedeleterequest.md
+  - docs/models/deletesensitivityresponse.md
+  - docs/models/deleteuserapiiamprincipaluserdeleterequest.md
+  - docs/models/deleteuserpolicyapiiampolicyuserdeleterequest.md
+  - docs/models/describecurrentuserapiiamprincipalusergetrequest.md
+  - docs/models/describecurrentuserdetailsapiiamprincipalusermegetrequest.md
+  - docs/models/details.md
+  - docs/models/dpcomputelineage.md
+  - docs/models/dplineage.md
+  - docs/models/dplineagecomputenode.md
+  - docs/models/dplineagecomputetransformationdata.md
+  - docs/models/dplineagedatasetdata.md
+  - docs/models/dplineagedatasetnode.md
+  - docs/models/dplineagejobdata.md
+  - docs/models/dplineagejobdataio.md
+  - docs/models/dplineagejobnode.md
+  - docs/models/dplineagelink.md
+  - docs/models/dpmetadataviewdata.md
+  - docs/models/effectenum.md
+  - docs/models/engine.md
+  - docs/models/entity.md
+  - docs/models/entityinfo.md
+  - docs/models/entitylink.md
+  - docs/models/entitylinklist.md
+  - docs/models/entitylinks.md
+  - docs/models/entityparent.md
+  - docs/models/entityresponse.md
+  - docs/models/entitysearchresult.md
+  - docs/models/entitysearchresults.md
+  - docs/models/entitysearchsortcolumns.md
+  - docs/models/entitytype.md
+  - docs/models/entityunion.md
+  - docs/models/entitywithowner.md
+  - docs/models/errorcode.md
+  - docs/models/errorcodes.md
+  - docs/models/existingproductjob.md
+  - docs/models/expectation.md
+  - docs/models/expectationcolumnthresholds.md
+  - docs/models/expectationdetails.md
+  - docs/models/expectationitem.md
+  - docs/models/expectationparameter.md
+  - docs/models/expectationresults.md
+  - docs/models/expectationrule.md
+  - docs/models/expectationrules.md
+  - docs/models/expectationthresholds.md
+  - docs/models/expectationweights.md
+  - docs/models/fielddatatype.md
+  - docs/models/fielddefinition.md
+  - docs/models/fielddefinitiontemplate.md
+  - docs/models/fieldmetadata.md
+  - docs/models/filterwithconditiontransformation.md
+  - docs/models/finalisersinput.md
+  - docs/models/finalisersinputwriteconfig.md
+  - docs/models/finalisersoutput.md
+  - docs/models/finalisersoutputwriteconfig.md
+  - docs/models/forecastgranularity.md
+  - docs/models/forecastmethod.md
+  - docs/models/formattedroute.md
+  - docs/models/formattedroutes.md
+  - docs/models/getallpoliciesapiiampolicylistgetrequest.md
+  - docs/models/getalluserpoliciesapiiampolicyuserlistgetrequest.md
+  - docs/models/getclassificationapidataclassificationgetrequest.md
+  - docs/models/getclassificationbynameapidataclassificationnamegetrequest.md
+  - docs/models/getclassificationresultapidatadataproductclassificationresultgetrequest.md
+  - docs/models/getclassificationruleapidatadataproductclassificationrulegetrequest.md
+  - docs/models/getclassificationsapidataclassificationlistgetrequest.md
+  - docs/models/getcomputebuilderapidatadataproductcomputebuildergetrequest.md
+  - docs/models/getcomputebuilderstateapidatadataproductcomputebuilderstategetrequest.md
+  - docs/models/getcomputefileapidatadataproductcomputefilegetrequest.md
+  - docs/models/getcomputelineageapidatadataproductcomputelineagegetrequest.md
+  - docs/models/getdataobjectconfigurationapidatadataobjectconfiggetrequest.md
+  - docs/models/getdataproductconsumersapidatadataproductconsumersgetrequest.md
+  - docs/models/getdataproductdataapidatadataproductdatagetrequest.md
+  - docs/models/getdataproductmetadataapidatadataproductmetadatav2getrequest.md
+  - docs/models/getdataproductqualityoverviewapidatadataproductqualityoverviewgetrequest.md
+  - docs/models/getdataproductsidsinmeshapidatameshdataproductsgetrequest.md
+  - docs/models/getdatasourceconnectionapidatadatasourceconnectiongetrequest.md
+  - docs/models/getentitiesapidataapplicationlistgetrequest.md
+  - docs/models/getentitiesapidatadataobjectlistgetrequest.md
+  - docs/models/getentitiesapidatadataproductlistgetrequest.md
+  - docs/models/getentitiesapidatadatasourcelistgetrequest.md
+  - docs/models/getentitiesapidatadatasystemlistgetrequest.md
+  - docs/models/getentitiesapidatameshlistgetrequest.md
+  - docs/models/getentitiesforqueryapidataapplicationlistquerygetrequest.md
+  - docs/models/getentitiesforqueryapidatadatasystemlistquerygetrequest.md
+  - docs/models/getentityapidataapplicationgetrequest.md
+  - docs/models/getentityapidatadataobjectgetrequest.md
+  - docs/models/getentityapidatadataproductgetrequest.md
+  - docs/models/getentityapidatadatasourcegetrequest.md
+  - docs/models/getentityapidatadatasystemgetrequest.md
+  - docs/models/getentityapidatameshgetrequest.md
+  - docs/models/getentityinfoapidataapplicationinfogetrequest.md
+  - docs/models/getentityinfoapidatadataobjectinfogetrequest.md
+  - docs/models/getentityinfoapidatadataproductinfogetrequest.md
+  - docs/models/getentityinfoapidatadatasourceinfogetrequest.md
+  - docs/models/getentityinfoapidatadatasysteminfogetrequest.md
+  - docs/models/getentitylinksapidataapplicationlinkgetrequest.md
+  - docs/models/getentitylinksapidatadataobjectlinkgetrequest.md
+  - docs/models/getentitylinksapidatadataproductlinkgetrequest.md
+  - docs/models/getentitylinksapidatadatasourcelinkgetrequest.md
+  - docs/models/getentitylinksapidatadatasystemlinkgetrequest.md
+  - docs/models/getentitymetadataapidatadataobjectmetadatagetrequest.md
+  - docs/models/getentitymetadataapidatadataproductmetadatagetrequest.md
+  - docs/models/geterrorcodesapiwellknownerrorcodesgetrequest.md
+  - docs/models/getexpectationresultsapidatadataproductqualityexpectationgetrequest.md
+  - docs/models/getexpectationrulesapidatadataproductexpectationrulesgetrequest.md
+  - docs/models/getjobhistoryapidatacomputehistorygetrequest.md
+  - docs/models/getlineagedataproductapidatadataproductlineagegetrequest.md
+  - docs/models/getlinksapidatalinkgetrequest.md
+  - docs/models/getlogsapidatacomputeloggetrequest.md
+  - docs/models/getmeshlandscapeapidatameshlandscapegetrequest.md
+  - docs/models/getorchestratorworkflowapidataorchestratorworkflowgetrequest.md
+  - docs/models/getorchestratorworkflowgraphapidataorchestratorworkflowgraphgetrequest.md
+  - docs/models/getorganizationsapiiamorganizationlistgetrequest.md
+  - docs/models/getpermissionsapiwellknownpermissionsgetrequest.md
+  - docs/models/getpolicyapiiampolicygetrequest.md
+  - docs/models/getprofilingresultsapidatadataproductqualityprofilinggetrequest.md
+  - docs/models/getqueryableentitiesapidatadataproductlistquerygetrequest.md
+  - docs/models/getroleapiiamprincipalrolegetrequest.md
+  - docs/models/getrolepolicyapiiampolicyrolegetrequest.md
+  - docs/models/getrunhistoryapidatacomputehistoryrungetrequest.md
+  - docs/models/getschemaapidatadataobjectschemagetrequest.md
+  - docs/models/getschemaapidatadataproductschemagetrequest.md
+  - docs/models/getsensitivitiesapidatasensitivitylistgetrequest.md
+  - docs/models/getsensitivityapidatasensitivitygetrequest.md
+  - docs/models/getsensitivitybynameapidatasensitivitynamegetrequest.md
+  - docs/models/getstatusapidatacomputegetrequest.md
+  - docs/models/gettagsapidatataggetrequest.md
+  - docs/models/getuserpolicyapiiampolicyusergetrequest.md
+  - docs/models/getusersapiiamprincipaluserlistgetrequest.md
+  - docs/models/getvalidationresultsapidatadataproductqualityvalidationsgetrequest.md
+  - docs/models/groupbytransformationinput.md
+  - docs/models/groupbytransformationinputaggregations.md
+  - docs/models/groupbytransformationoutput.md
+  - docs/models/groupbytransformationoutputaggregations.md
+  - docs/models/host.md
+  - docs/models/icebergtableformat.md
+  - docs/models/icebergtableproperties.md
+  - docs/models/jobhistory.md
+  - docs/models/joincondition.md
+  - docs/models/joinoperation.md
+  - docs/models/joinrenameselecttransformationinput.md
+  - docs/models/joinrenameselecttransformationinputrenamecolumns.md
+  - docs/models/joinrenameselecttransformationoutput.md
+  - docs/models/joinrenameselecttransformationoutputrenamecolumns.md
+  - docs/models/jointransformationinput.md
+  - docs/models/jointransformationoutput.md
+  - docs/models/killjob.md
+  - docs/models/kwargs.md
+  - docs/models/lefttype.md
+  - docs/models/limitrowstransformation.md
+  - docs/models/linkapplicationapidatalinkdataproductapplicationpostrequest.md
+  - docs/models/linkdataproductsapidatalinkdataproductdataproductpostrequest.md
+  - docs/models/linkdatasystemapidatalinkdatasystemdatasourcepostrequest.md
+  - docs/models/linkentitiesapidatalinkdataobjectdataproductpostrequest.md
+  - docs/models/linkentitiesapidatalinkdatasourcedataobjectpostrequest.md
+  - docs/models/linknode.md
+  - docs/models/listworkflowsapidataorchestratorworkflowlistgetrequest.md
+  - docs/models/loc.md
+  - docs/models/managerolepolicy.md
+  - docs/models/managetag.md
+  - docs/models/manageuserpolicy.md
+  - docs/models/maskreplacement.md
+  - docs/models/maskrule.md
+  - docs/models/maskvaluestransformationinput.md
+  - docs/models/maskvaluestransformationoutput.md
+  - docs/models/mergeaction.md
+  - docs/models/mergecomparisonoperator.md
+  - docs/models/mergeconditionactioninput.md
+  - docs/models/mergeconditionactionoutput.md
+  - docs/models/mergeconfiginput.md
+  - docs/models/mergeconfigoutput.md
+  - docs/models/mergeoperatorexpressionconditions.md
+  - docs/models/mergeoperatorexpressionkeys.md
+  - docs/models/mergepredicate.md
+  - docs/models/mesh.md
+  - docs/models/meshlist.md
+  - docs/models/meshresponse.md
+  - docs/models/meshwithowner.md
+  - docs/models/node.md
+  - docs/models/nullifchange.md
+  - docs/models/nullifexpressiontransformation.md
+  - docs/models/optionalsparkconfig.md
+  - docs/models/orchestratorworkflow.md
+  - docs/models/orchestratorworkflows.md
+  - docs/models/organization.md
+  - docs/models/organizationlist.md
+  - docs/models/overwriteconfig.md
+  - docs/models/overwritepartitionsconfig.md
+  - docs/models/parametertuningsearchtype.md
+  - docs/models/path.md
+  - docs/models/permissionpair.md
+  - docs/models/persisttransformation.md
+  - docs/models/person.md
+  - docs/models/pivottransformationinput.md
+  - docs/models/pivottransformationinputaggregations.md
+  - docs/models/pivottransformationinputpivotvalue.md
+  - docs/models/pivottransformationoutput.md
+  - docs/models/pivottransformationoutputaggregations.md
+  - docs/models/pivottransformationoutputpivotvalue.md
+  - docs/models/policies.md
+  - docs/models/policy.md
+  - docs/models/previewstate.md
+  - docs/models/principals.md
+  - docs/models/profiling.md
+  - docs/models/profilingresults.md
+  - docs/models/purgeuserapiiamprincipaluserpurgedeleterequest.md
+  - docs/models/querydataproduct.md
+  - docs/models/querydataproductsdataapidatadataproductquerypostrequest.md
+  - docs/models/queryparams.md
+  - docs/models/refreshtoken.md
+  - docs/models/regressionpredictiontransformation.md
+  - docs/models/regressionpredictiontransformationlstm.md
+  - docs/models/regressiontrainingtransformation.md
+  - docs/models/regressiontrainingtransformationlstm.md
+  - docs/models/removeentitymetadataapidatadataobjectmetadatadeleterequest.md
+  - docs/models/removeentitymetadataapidatadataproductmetadatadeleterequest.md
+  - docs/models/removeprincipalsfromroleapiiamprincipalrolememberdeleterequest.md
+  - docs/models/removeschedule.md
+  - docs/models/removetagapidatatagdeleterequest.md
+  - docs/models/renamecolumntransformation.md
+  - docs/models/repartitiontransformation.md
+  - docs/models/replacechaintransformation.md
+  - docs/models/replacecolumn.md
+  - docs/models/replaceterm.md
+  - docs/models/replacetransformation.md
+  - docs/models/reschedule.md
+  - docs/models/resetpasswordapiiampasswordresetpostrequest.md
+  - docs/models/resultlistresponse.md
+  - docs/models/rightside.md
+  - docs/models/righttype.md
+  - docs/models/role.md
+  - docs/models/rolefullinfo.md
+  - docs/models/rolepolicy.md
+  - docs/models/rolesinfo.md
+  - docs/models/runcomputebuilderapidatadataproductcomputebuilderrunpostrequest.md
+  - docs/models/runhistory.md
+  - docs/models/runprofilingapidatadataproductcomputebuilderrunprofilingpostrequest.md
+  - docs/models/runqualityapidatadataproductcomputebuilderrunqualitypostrequest.md
+  - docs/models/runsqltransformation.md
+  - docs/models/runstatus.md
+  - docs/models/s3datasourceconnectiondetails.md
+  - docs/models/schedule.md
+  - docs/models/scheduledstatus.md
+  - docs/models/schemafieldmetadata.md
+  - docs/models/schemainput.md
+  - docs/models/schemaoutput.md
+  - docs/models/searchentitiesapidatasearchgetrequest.md
+  - docs/models/secret.md
+  - docs/models/secretkey.md
+  - docs/models/secrets.md
+  - docs/models/security.md
+  - docs/models/selectcolumnstransformation.md
+  - docs/models/selectexpressiontransformation.md
+  - docs/models/sensitivity.md
+  - docs/models/sensitivitylistresponse.md
+  - docs/models/sorttransformationinput.md
+  - docs/models/sorttransformationinputsortcolumns.md
+  - docs/models/sorttransformationoutput.md
+  - docs/models/sorttransformationoutputsortcolumns.md
+  - docs/models/sparkdatatype.md
+  - docs/models/state.md
+  - docs/models/statement.md
+  - docs/models/status.md
+  - docs/models/storagelevel.md
+  - docs/models/storeddataproductschema.md
+  - docs/models/syntheticdatasourceconnectiondetails.md
+  - docs/models/syntheticparams.md
+  - docs/models/table.md
+  - docs/models/tableparams.md
+  - docs/models/tag.md
+  - docs/models/taglist.md
+  - docs/models/timestampcolumninput.md
+  - docs/models/timestampcolumnoutput.md
+  - docs/models/timestamptounixtimetransformationinput.md
+  - docs/models/timestamptounixtimetransformationoutput.md
+  - docs/models/tojsonstructtransformation.md
+  - docs/models/tojsontransformation.md
+  - docs/models/tokendataresponse.md
+  - docs/models/tokenopenid.md
+  - docs/models/tostructtransformation.md
+  - docs/models/type.md
+  - docs/models/uniontransformation.md
+  - docs/models/unixtimestampcolumn.md
+  - docs/models/unixtimetotimestamptransformation.md
+  - docs/models/unpivottransformation.md
+  - docs/models/updateapplicationrequest.md
+  - docs/models/updateclassificationapidataclassificationputrequest.md
+  - docs/models/updateclassificationbynameapidataclassificationnameputrequest.md
+  - docs/models/updateclassificationrequest.md
+  - docs/models/updateclassificationresult.md
+  - docs/models/updateclassificationresultapidatadataproductclassificationresultputrequest.md
+  - docs/models/updateclassificationruleapidatadataproductclassificationruleputrequest.md
+  - docs/models/updatecomputebuilderapidatadataproductcomputebuilderputrequest.md
+  - docs/models/updatecomputefileapidatadataproductcomputefileputrequest.md
+  - docs/models/updatecomputestate.md
+  - docs/models/updatecomputestateapidatadataproductcomputestateputrequest.md
+  - docs/models/updatecustomexpectationapidatadataproductqualityexpectationcustomputrequest.md
+  - docs/models/updatedataobjectconfiguration.md
+  - docs/models/updatedataobjectconfigurationapidatadataobjectconfigputrequest.md
+  - docs/models/updatedataobjectconfigurationconfiguration.md
+  - docs/models/updatedataproducthostmeshapidatadataproductpatchrequest.md
+  - docs/models/updatedataproductschema.md
+  - docs/models/updatedataproductschemaapidatadataproductschemaputrequest.md
+  - docs/models/updatedatasourceconnection.md
+  - docs/models/updatedatasourceconnectionapidatadatasourceconnectionputrequest.md
+  - docs/models/updatedatasourceconnectionconnection.md
+  - docs/models/updatedatasourcesecretapidatadatasourcesecretputrequest.md
+  - docs/models/updatedatasystemrequest.md
+  - docs/models/updateentityapidataapplicationputrequest.md
+  - docs/models/updateentityapidatadataobjectputrequest.md
+  - docs/models/updateentityapidatadataproductputrequest.md
+  - docs/models/updateentityapidatadatasourceputrequest.md
+  - docs/models/updateentityapidatadatasystemputrequest.md
+  - docs/models/updateentityapidatameshputrequest.md
+  - docs/models/updateentityinfoapidataapplicationinfoputrequest.md
+  - docs/models/updateentityinfoapidatadataobjectinfoputrequest.md
+  - docs/models/updateentityinfoapidatadataproductinfoputrequest.md
+  - docs/models/updateentityinfoapidatadatasourceinfoputrequest.md
+  - docs/models/updateentityinfoapidatadatasysteminfoputrequest.md
+  - docs/models/updateentitymetadataapidatadataobjectmetadataputrequest.md
+  - docs/models/updateentitymetadataapidatadataproductmetadataputrequest.md
+  - docs/models/updateentitymetadatarequest.md
+  - docs/models/updateentityrequest.md
+  - docs/models/updateexpectationthresholdsapidatadataproductqualityexpectationthresholdsputrequest.md
+  - docs/models/updateexpectationweightsapidatadataproductqualityexpectationweightsputrequest.md
+  - docs/models/updatemeshpinapidatameshpinputrequest.md
+  - docs/models/updatemeshpinrequest.md
+  - docs/models/updateorchestratorworkflow.md
+  - docs/models/updateorchestratorworkflowapidataorchestratorworkflowputrequest.md
+  - docs/models/updateorganization.md
+  - docs/models/updateorganizationapiiamorganizationputrequest.md
+  - docs/models/updatepolicyapiiampolicyputrequest.md
+  - docs/models/updateroleapiiamprincipalroleputrequest.md
+  - docs/models/updateschema.md
+  - docs/models/updateschemaapidatadataobjectschemaputrequest.md
+  - docs/models/updatesensitivityapidatasensitivityputrequest.md
+  - docs/models/updatesensitivitybynameapidatasensitivitynameputrequest.md
+  - docs/models/updatesensitivityrequest.md
+  - docs/models/url.md
+  - docs/models/user.md
+  - docs/models/usercredentials.md
+  - docs/models/userpolicies.md
+  - docs/models/userpolicy.md
+  - docs/models/users.md
+  - docs/models/userwithconditions.md
+  - docs/models/utils/retryconfig.md
+  - docs/models/validation.md
+  - docs/models/validationerror.md
+  - docs/models/validationresults.md
+  - docs/sdks/application/README.md
+  - docs/sdks/auth/README.md
+  - docs/sdks/classificationsdk/README.md
+  - docs/sdks/computesdk/README.md
+  - docs/sdks/dataobject/README.md
+  - docs/sdks/dataproduct/README.md
+  - docs/sdks/datasource/README.md
+  - docs/sdks/datasystem/README.md
+  - docs/sdks/element/README.md
+  - docs/sdks/iam/README.md
+  - docs/sdks/link/README.md
+  - docs/sdks/meshsdk/README.md
+  - docs/sdks/orchestratorworkflowsdk/README.md
+  - docs/sdks/organizationmanagement/README.md
+  - docs/sdks/rolebasedidentity/README.md
+  - docs/sdks/rolemanagement/README.md
+  - docs/sdks/search/README.md
+  - docs/sdks/sensitivitysdk/README.md
+  - docs/sdks/serviceinfo/README.md
+  - docs/sdks/toanfndtn/README.md
+  - docs/sdks/userbasedidentity/README.md
+  - docs/sdks/usersdk/README.md
+  - py.typed
+  - pylintrc
+  - pyproject.toml
+  - scripts/publish.sh
+  - src/toan_fndtn/__init__.py
+  - src/toan_fndtn/_hooks/__init__.py
+  - src/toan_fndtn/_hooks/sdkhooks.py
+  - src/toan_fndtn/_hooks/types.py
+  - src/toan_fndtn/_version.py
+  - src/toan_fndtn/application.py
+  - src/toan_fndtn/auth.py
+  - src/toan_fndtn/basesdk.py
+  - src/toan_fndtn/classification_sdk.py
+  - src/toan_fndtn/compute_sdk.py
+  - src/toan_fndtn/data_object.py
+  - src/toan_fndtn/data_product.py
+  - src/toan_fndtn/data_source.py
+  - src/toan_fndtn/data_system.py
+  - src/toan_fndtn/element.py
+  - src/toan_fndtn/errors/__init__.py
+  - src/toan_fndtn/errors/httpvalidationerror.py
+  - src/toan_fndtn/errors/no_response_error.py
+  - src/toan_fndtn/errors/responsevalidationerror.py
+  - src/toan_fndtn/errors/toanfndtndefaulterror.py
+  - src/toan_fndtn/errors/toanfndtnerror.py
+  - src/toan_fndtn/httpclient.py
+  - src/toan_fndtn/iam.py
+  - src/toan_fndtn/link.py
+  - src/toan_fndtn/mesh_sdk.py
+  - src/toan_fndtn/models/__init__.py
+  - src/toan_fndtn/models/action.py
+  - src/toan_fndtn/models/add_custom_expectation_api_data_data_product_quality_expectation_custom_postop.py
+  - src/toan_fndtn/models/add_data_source_secret_api_data_data_source_secret_postop.py
+  - src/toan_fndtn/models/add_entity_metadata_api_data_data_object_metadata_postop.py
+  - src/toan_fndtn/models/add_entity_metadata_api_data_data_product_metadata_postop.py
+  - src/toan_fndtn/models/add_principals_into_role_api_iam_principal_role_member_postop.py
+  - src/toan_fndtn/models/add_tag_api_data_tag_postop.py
+  - src/toan_fndtn/models/addcurrenttimestamptransformation.py
+  - src/toan_fndtn/models/admin_change_user_password_api_iam_admin_user_user_id_password_postop.py
+  - src/toan_fndtn/models/adminchangepassword.py
+  - src/toan_fndtn/models/appendconfig.py
+  - src/toan_fndtn/models/applicationdataproductparententity.py
+  - src/toan_fndtn/models/applicationentity.py
+  - src/toan_fndtn/models/applicationentitylist.py
+  - src/toan_fndtn/models/applicationentitywithowner.py
+  - src/toan_fndtn/models/applicationforqueryentity.py
+  - src/toan_fndtn/models/applicationforquerylist.py
+  - src/toan_fndtn/models/applicationresponse.py
+  - src/toan_fndtn/models/assignee.py
+  - src/toan_fndtn/models/backend_data_constant_sortdirection.py
+  - src/toan_fndtn/models/backend_data_model_entitystate.py
+  - src/toan_fndtn/models/backend_data_schema_application_createentity.py
+  - src/toan_fndtn/models/backend_data_schema_common_createentity.py
+  - src/toan_fndtn/models/backend_data_schema_common_entitystate.py
+  - src/toan_fndtn/models/backend_data_schema_common_ok.py
+  - src/toan_fndtn/models/backend_data_schema_data_system_createentity.py
+  - src/toan_fndtn/models/backend_iam_schema_ok.py
+  - src/toan_fndtn/models/body_update_compute_file_api_data_data_product_compute_file_put.py
+  - src/toan_fndtn/models/browse_roles_api_iam_principal_role_list_getop.py
+  - src/toan_fndtn/models/builderpipeline_input.py
+  - src/toan_fndtn/models/builderpipeline_output.py
+  - src/toan_fndtn/models/builderpipelinestate.py
+  - src/toan_fndtn/models/castcolumn.py
+  - src/toan_fndtn/models/casttransformation_input.py
+  - src/toan_fndtn/models/casttransformation_output.py
+  - src/toan_fndtn/models/chainuniontransformation.py
+  - src/toan_fndtn/models/change_password_api_iam_password_change_postop.py
+  - src/toan_fndtn/models/changepassword.py
+  - src/toan_fndtn/models/classification.py
+  - src/toan_fndtn/models/classificationlistresponse.py
+  - src/toan_fndtn/models/classificationregexrecognizer.py
+  - src/toan_fndtn/models/classificationresult.py
+  - src/toan_fndtn/models/classificationresults.py
+  - src/toan_fndtn/models/classificationrule.py
+  - src/toan_fndtn/models/coalescecolumn.py
+  - src/toan_fndtn/models/coalescepartitionstransformation.py
+  - src/toan_fndtn/models/coalescetransformation.py
+  - src/toan_fndtn/models/columntype.py
+  - src/toan_fndtn/models/comparisonoperator.py
+  - src/toan_fndtn/models/compute.py
+  - src/toan_fndtn/models/computejobhistory.py
+  - src/toan_fndtn/models/computejobtype.py
+  - src/toan_fndtn/models/computeloglist.py
+  - src/toan_fndtn/models/computeresponse.py
+  - src/toan_fndtn/models/computerunhistory.py
+  - src/toan_fndtn/models/concatenatetransformation.py
+  - src/toan_fndtn/models/connectionsecret.py
+  - src/toan_fndtn/models/connectorparquetparams.py
+  - src/toan_fndtn/models/consumeformat.py
+  - src/toan_fndtn/models/create_access_key_pair_api_iam_principal_user_key_pair_postop.py
+  - src/toan_fndtn/models/create_classification_api_data_classification_postop.py
+  - src/toan_fndtn/models/create_entity_api_data_application_postop.py
+  - src/toan_fndtn/models/create_entity_api_data_data_object_postop.py
+  - src/toan_fndtn/models/create_entity_api_data_data_product_postop.py
+  - src/toan_fndtn/models/create_entity_api_data_data_source_postop.py
+  - src/toan_fndtn/models/create_entity_api_data_data_system_postop.py
+  - src/toan_fndtn/models/create_entity_api_data_mesh_postop.py
+  - src/toan_fndtn/models/create_orchestrator_workflow_api_data_orchestrator_workflow_postop.py
+  - src/toan_fndtn/models/create_organization_api_iam_organization_postop.py
+  - src/toan_fndtn/models/create_policy_api_iam_policy_postop.py
+  - src/toan_fndtn/models/create_role_api_iam_principal_role_postop.py
+  - src/toan_fndtn/models/create_role_policy_api_iam_policy_role_postop.py
+  - src/toan_fndtn/models/create_sensitivity_api_data_sensitivity_postop.py
+  - src/toan_fndtn/models/create_user_api_iam_principal_user_postop.py
+  - src/toan_fndtn/models/create_user_policy_api_iam_policy_user_postop.py
+  - src/toan_fndtn/models/createapplicationrequest.py
+  - src/toan_fndtn/models/createclassificationrequest.py
+  - src/toan_fndtn/models/createdataobjectrequest.py
+  - src/toan_fndtn/models/createdataproductrequest.py
+  - src/toan_fndtn/models/createdatasourcerequest.py
+  - src/toan_fndtn/models/createdatasystemrequest.py
+  - src/toan_fndtn/models/createfielddefinition.py
+  - src/toan_fndtn/models/createmeshentity.py
+  - src/toan_fndtn/models/createmeshrequest.py
+  - src/toan_fndtn/models/createorchestratorworkflow.py
+  - src/toan_fndtn/models/createorganization.py
+  - src/toan_fndtn/models/createpolicy.py
+  - src/toan_fndtn/models/createsensitivityrequest.py
+  - src/toan_fndtn/models/createupdaterole.py
+  - src/toan_fndtn/models/createuser.py
+  - src/toan_fndtn/models/createuserresponse.py
+  - src/toan_fndtn/models/csvparams.py
+  - src/toan_fndtn/models/custompythontransformation.py
+  - src/toan_fndtn/models/data_product_share_api_data_data_product_share_postop.py
+  - src/toan_fndtn/models/data_product_unshare_api_data_data_product_unshare_postop.py
+  - src/toan_fndtn/models/databasedatasourceconnectiondetails.py
+  - src/toan_fndtn/models/dataobjectconfigurationresponse.py
+  - src/toan_fndtn/models/dataobjectlist.py
+  - src/toan_fndtn/models/dataobjectmetadataresponse.py
+  - src/toan_fndtn/models/dataobjectmode.py
+  - src/toan_fndtn/models/dataobjectresponse.py
+  - src/toan_fndtn/models/dataobjectwithconfiguration.py
+  - src/toan_fndtn/models/dataproductconsumersresponse.py
+  - src/toan_fndtn/models/dataproductentitylist.py
+  - src/toan_fndtn/models/dataproductentitywithowner.py
+  - src/toan_fndtn/models/dataproductidentifierlist.py
+  - src/toan_fndtn/models/dataproductmeshavailabilityrequest.py
+  - src/toan_fndtn/models/dataproductmetadataresponse.py
+  - src/toan_fndtn/models/dataproductparams.py
+  - src/toan_fndtn/models/dataproductqualityoverview.py
+  - src/toan_fndtn/models/dataproductresponse.py
+  - src/toan_fndtn/models/datasourceconnectionresponse.py
+  - src/toan_fndtn/models/datasourcelist.py
+  - src/toan_fndtn/models/datasourceresponse.py
+  - src/toan_fndtn/models/datasourcewithconnection.py
+  - src/toan_fndtn/models/datasystementity.py
+  - src/toan_fndtn/models/datasystementitylist.py
+  - src/toan_fndtn/models/datasystementitywithowner.py
+  - src/toan_fndtn/models/datasystemforqueryentity.py
+  - src/toan_fndtn/models/datasystemforquerylist.py
+  - src/toan_fndtn/models/datasystemresponse.py
+  - src/toan_fndtn/models/deduplicatekeeptransformation.py
+  - src/toan_fndtn/models/deduplicatetransformation.py
+  - src/toan_fndtn/models/deduplicationkeep.py
+  - src/toan_fndtn/models/delete_access_key_pair_api_iam_principal_user_key_pair_deleteop.py
+  - src/toan_fndtn/models/delete_application_link_api_data_link_data_product_application_deleteop.py
+  - src/toan_fndtn/models/delete_classification_api_data_classification_deleteop.py
+  - src/toan_fndtn/models/delete_classification_by_name_api_data_classification_name_deleteop.py
+  - src/toan_fndtn/models/delete_compute_file_api_data_data_product_compute_file_deleteop.py
+  - src/toan_fndtn/models/delete_custom_expectation_api_data_data_product_quality_expectation_custom_deleteop.py
+  - src/toan_fndtn/models/delete_data_api_data_data_product_data_deleteop.py
+  - src/toan_fndtn/models/delete_data_product_link_api_data_link_data_product_data_product_deleteop.py
+  - src/toan_fndtn/models/delete_entity_api_data_application_deleteop.py
+  - src/toan_fndtn/models/delete_entity_api_data_data_object_deleteop.py
+  - src/toan_fndtn/models/delete_entity_api_data_data_product_deleteop.py
+  - src/toan_fndtn/models/delete_entity_api_data_data_source_deleteop.py
+  - src/toan_fndtn/models/delete_entity_api_data_data_system_deleteop.py
+  - src/toan_fndtn/models/delete_entity_api_data_mesh_deleteop.py
+  - src/toan_fndtn/models/delete_entity_link_api_data_link_data_object_data_product_deleteop.py
+  - src/toan_fndtn/models/delete_entity_link_api_data_link_data_source_data_object_deleteop.py
+  - src/toan_fndtn/models/delete_entity_link_api_data_link_data_system_data_source_deleteop.py
+  - src/toan_fndtn/models/delete_orchestrator_workflow_api_data_orchestrator_workflow_deleteop.py
+  - src/toan_fndtn/models/delete_organization_api_iam_organization_deleteop.py
+  - src/toan_fndtn/models/delete_policy_api_iam_policy_deleteop.py
+  - src/toan_fndtn/models/delete_role_api_iam_principal_role_deleteop.py
+  - src/toan_fndtn/models/delete_role_policy_api_iam_policy_role_deleteop.py
+  - src/toan_fndtn/models/delete_sensitivity_api_data_sensitivity_deleteop.py
+  - src/toan_fndtn/models/delete_sensitivity_by_name_api_data_sensitivity_name_deleteop.py
+  - src/toan_fndtn/models/delete_user_api_iam_principal_user_deleteop.py
+  - src/toan_fndtn/models/delete_user_policy_api_iam_policy_user_deleteop.py
+  - src/toan_fndtn/models/deleteentitymetadatarequest.py
+  - src/toan_fndtn/models/deletesensitivityresponse.py
+  - src/toan_fndtn/models/describe_current_user_api_iam_principal_user_getop.py
+  - src/toan_fndtn/models/describe_current_user_details_api_iam_principal_user_me_getop.py
+  - src/toan_fndtn/models/dpcomputelineage.py
+  - src/toan_fndtn/models/dplineage.py
+  - src/toan_fndtn/models/dplineagecomputenode.py
+  - src/toan_fndtn/models/dplineagecomputetransformationdata.py
+  - src/toan_fndtn/models/dplineagedatasetdata.py
+  - src/toan_fndtn/models/dplineagedatasetnode.py
+  - src/toan_fndtn/models/dplineagejobdata.py
+  - src/toan_fndtn/models/dplineagejobdataio.py
+  - src/toan_fndtn/models/dplineagejobnode.py
+  - src/toan_fndtn/models/dplineagelink.py
+  - src/toan_fndtn/models/dpmetadataviewdata.py
+  - src/toan_fndtn/models/effectenum.py
+  - src/toan_fndtn/models/engine.py
+  - src/toan_fndtn/models/entity.py
+  - src/toan_fndtn/models/entityinfo.py
+  - src/toan_fndtn/models/entitylink.py
+  - src/toan_fndtn/models/entitylinklist.py
+  - src/toan_fndtn/models/entitylinks.py
+  - src/toan_fndtn/models/entityparent.py
+  - src/toan_fndtn/models/entityresponse.py
+  - src/toan_fndtn/models/entitysearchresult.py
+  - src/toan_fndtn/models/entitysearchresults.py
+  - src/toan_fndtn/models/entitysearchsortcolumns.py
+  - src/toan_fndtn/models/entitytype.py
+  - src/toan_fndtn/models/entitywithowner.py
+  - src/toan_fndtn/models/errorcode.py
+  - src/toan_fndtn/models/errorcodes.py
+  - src/toan_fndtn/models/existingproductjob.py
+  - src/toan_fndtn/models/expectation.py
+  - src/toan_fndtn/models/expectationcolumnthresholds.py
+  - src/toan_fndtn/models/expectationdetails.py
+  - src/toan_fndtn/models/expectationitem.py
+  - src/toan_fndtn/models/expectationparameter.py
+  - src/toan_fndtn/models/expectationresults.py
+  - src/toan_fndtn/models/expectationrule.py
+  - src/toan_fndtn/models/expectationrules.py
+  - src/toan_fndtn/models/expectationthresholds.py
+  - src/toan_fndtn/models/expectationweights.py
+  - src/toan_fndtn/models/fielddatatype.py
+  - src/toan_fndtn/models/fielddefinition.py
+  - src/toan_fndtn/models/fielddefinitiontemplate.py
+  - src/toan_fndtn/models/fieldmetadata.py
+  - src/toan_fndtn/models/filterwithconditiontransformation.py
+  - src/toan_fndtn/models/finalisers_input.py
+  - src/toan_fndtn/models/finalisers_output.py
+  - src/toan_fndtn/models/forecastgranularity.py
+  - src/toan_fndtn/models/forecastmethod.py
+  - src/toan_fndtn/models/formattedroute.py
+  - src/toan_fndtn/models/formattedroutes.py
+  - src/toan_fndtn/models/get_all_policies_api_iam_policy_list_getop.py
+  - src/toan_fndtn/models/get_all_user_policies_api_iam_policy_user_list_getop.py
+  - src/toan_fndtn/models/get_classification_api_data_classification_getop.py
+  - src/toan_fndtn/models/get_classification_by_name_api_data_classification_name_getop.py
+  - src/toan_fndtn/models/get_classification_result_api_data_data_product_classification_result_getop.py
+  - src/toan_fndtn/models/get_classification_rule_api_data_data_product_classification_rule_getop.py
+  - src/toan_fndtn/models/get_classifications_api_data_classification_list_getop.py
+  - src/toan_fndtn/models/get_compute_builder_api_data_data_product_compute_builder_getop.py
+  - src/toan_fndtn/models/get_compute_builder_state_api_data_data_product_compute_builder_state_getop.py
+  - src/toan_fndtn/models/get_compute_file_api_data_data_product_compute_file_getop.py
+  - src/toan_fndtn/models/get_compute_lineage_api_data_data_product_compute_lineage_getop.py
+  - src/toan_fndtn/models/get_data_object_configuration_api_data_data_object_config_getop.py
+  - src/toan_fndtn/models/get_data_product_consumers_api_data_data_product_consumers_getop.py
+  - src/toan_fndtn/models/get_data_product_data_api_data_data_product_data_getop.py
+  - src/toan_fndtn/models/get_data_product_metadata_api_data_data_product_metadata_v2_getop.py
+  - src/toan_fndtn/models/get_data_product_quality_overview_api_data_data_product_quality_overview_getop.py
+  - src/toan_fndtn/models/get_data_products_ids_in_mesh_api_data_mesh_data_products_getop.py
+  - src/toan_fndtn/models/get_data_source_connection_api_data_data_source_connection_getop.py
+  - src/toan_fndtn/models/get_entities_api_data_application_list_getop.py
+  - src/toan_fndtn/models/get_entities_api_data_data_object_list_getop.py
+  - src/toan_fndtn/models/get_entities_api_data_data_product_list_getop.py
+  - src/toan_fndtn/models/get_entities_api_data_data_source_list_getop.py
+  - src/toan_fndtn/models/get_entities_api_data_data_system_list_getop.py
+  - src/toan_fndtn/models/get_entities_api_data_mesh_list_getop.py
+  - src/toan_fndtn/models/get_entities_for_query_api_data_application_list_query_getop.py
+  - src/toan_fndtn/models/get_entities_for_query_api_data_data_system_list_query_getop.py
+  - src/toan_fndtn/models/get_entity_api_data_application_getop.py
+  - src/toan_fndtn/models/get_entity_api_data_data_object_getop.py
+  - src/toan_fndtn/models/get_entity_api_data_data_product_getop.py
+  - src/toan_fndtn/models/get_entity_api_data_data_source_getop.py
+  - src/toan_fndtn/models/get_entity_api_data_data_system_getop.py
+  - src/toan_fndtn/models/get_entity_api_data_mesh_getop.py
+  - src/toan_fndtn/models/get_entity_info_api_data_application_info_getop.py
+  - src/toan_fndtn/models/get_entity_info_api_data_data_object_info_getop.py
+  - src/toan_fndtn/models/get_entity_info_api_data_data_product_info_getop.py
+  - src/toan_fndtn/models/get_entity_info_api_data_data_source_info_getop.py
+  - src/toan_fndtn/models/get_entity_info_api_data_data_system_info_getop.py
+  - src/toan_fndtn/models/get_entity_links_api_data_application_link_getop.py
+  - src/toan_fndtn/models/get_entity_links_api_data_data_object_link_getop.py
+  - src/toan_fndtn/models/get_entity_links_api_data_data_product_link_getop.py
+  - src/toan_fndtn/models/get_entity_links_api_data_data_source_link_getop.py
+  - src/toan_fndtn/models/get_entity_links_api_data_data_system_link_getop.py
+  - src/toan_fndtn/models/get_entity_metadata_api_data_data_object_metadata_getop.py
+  - src/toan_fndtn/models/get_entity_metadata_api_data_data_product_metadata_getop.py
+  - src/toan_fndtn/models/get_error_codes_api_well_known_error_codes_getop.py
+  - src/toan_fndtn/models/get_expectation_results_api_data_data_product_quality_expectation_getop.py
+  - src/toan_fndtn/models/get_expectation_rules_api_data_data_product_expectation_rules_getop.py
+  - src/toan_fndtn/models/get_job_history_api_data_compute_history_getop.py
+  - src/toan_fndtn/models/get_lineage_data_product_api_data_data_product_lineage_getop.py
+  - src/toan_fndtn/models/get_links_api_data_link_getop.py
+  - src/toan_fndtn/models/get_logs_api_data_compute_log_getop.py
+  - src/toan_fndtn/models/get_mesh_landscape_api_data_mesh_landscape_getop.py
+  - src/toan_fndtn/models/get_orchestrator_workflow_api_data_orchestrator_workflow_getop.py
+  - src/toan_fndtn/models/get_orchestrator_workflow_graph_api_data_orchestrator_workflow_graph_getop.py
+  - src/toan_fndtn/models/get_organizations_api_iam_organization_list_getop.py
+  - src/toan_fndtn/models/get_permissions_api_well_known_permissions_getop.py
+  - src/toan_fndtn/models/get_policy_api_iam_policy_getop.py
+  - src/toan_fndtn/models/get_profiling_results_api_data_data_product_quality_profiling_getop.py
+  - src/toan_fndtn/models/get_queryable_entities_api_data_data_product_list_query_getop.py
+  - src/toan_fndtn/models/get_role_api_iam_principal_role_getop.py
+  - src/toan_fndtn/models/get_role_policy_api_iam_policy_role_getop.py
+  - src/toan_fndtn/models/get_run_history_api_data_compute_history_run_getop.py
+  - src/toan_fndtn/models/get_schema_api_data_data_object_schema_getop.py
+  - src/toan_fndtn/models/get_schema_api_data_data_product_schema_getop.py
+  - src/toan_fndtn/models/get_sensitivities_api_data_sensitivity_list_getop.py
+  - src/toan_fndtn/models/get_sensitivity_api_data_sensitivity_getop.py
+  - src/toan_fndtn/models/get_sensitivity_by_name_api_data_sensitivity_name_getop.py
+  - src/toan_fndtn/models/get_status_api_data_compute_getop.py
+  - src/toan_fndtn/models/get_tags_api_data_tag_getop.py
+  - src/toan_fndtn/models/get_user_policy_api_iam_policy_user_getop.py
+  - src/toan_fndtn/models/get_users_api_iam_principal_user_list_getop.py
+  - src/toan_fndtn/models/get_validation_results_api_data_data_product_quality_validations_getop.py
+  - src/toan_fndtn/models/groupbytransformation_input.py
+  - src/toan_fndtn/models/groupbytransformation_output.py
+  - src/toan_fndtn/models/icebergtableformat.py
+  - src/toan_fndtn/models/icebergtableproperties.py
+  - src/toan_fndtn/models/jobhistory.py
+  - src/toan_fndtn/models/joincondition.py
+  - src/toan_fndtn/models/joinoperation.py
+  - src/toan_fndtn/models/joinrenameselecttransformation_input.py
+  - src/toan_fndtn/models/joinrenameselecttransformation_output.py
+  - src/toan_fndtn/models/jointransformation_input.py
+  - src/toan_fndtn/models/jointransformation_output.py
+  - src/toan_fndtn/models/killjob.py
+  - src/toan_fndtn/models/lefttype.py
+  - src/toan_fndtn/models/limitrowstransformation.py
+  - src/toan_fndtn/models/link_application_api_data_link_data_product_application_postop.py
+  - src/toan_fndtn/models/link_data_products_api_data_link_data_product_data_product_postop.py
+  - src/toan_fndtn/models/link_data_system_api_data_link_data_system_data_source_postop.py
+  - src/toan_fndtn/models/link_entities_api_data_link_data_object_data_product_postop.py
+  - src/toan_fndtn/models/link_entities_api_data_link_data_source_data_object_postop.py
+  - src/toan_fndtn/models/linknode.py
+  - src/toan_fndtn/models/list_workflows_api_data_orchestrator_workflow_list_getop.py
+  - src/toan_fndtn/models/managerolepolicy.py
+  - src/toan_fndtn/models/managetag.py
+  - src/toan_fndtn/models/manageuserpolicy.py
+  - src/toan_fndtn/models/maskreplacement.py
+  - src/toan_fndtn/models/maskrule.py
+  - src/toan_fndtn/models/maskvaluestransformation_input.py
+  - src/toan_fndtn/models/maskvaluestransformation_output.py
+  - src/toan_fndtn/models/mergeaction.py
+  - src/toan_fndtn/models/mergecomparisonoperator.py
+  - src/toan_fndtn/models/mergeconditionaction_input.py
+  - src/toan_fndtn/models/mergeconditionaction_output.py
+  - src/toan_fndtn/models/mergeconfig_input.py
+  - src/toan_fndtn/models/mergeconfig_output.py
+  - src/toan_fndtn/models/mergeoperatorexpressionconditions.py
+  - src/toan_fndtn/models/mergeoperatorexpressionkeys.py
+  - src/toan_fndtn/models/mergepredicate.py
+  - src/toan_fndtn/models/mesh.py
+  - src/toan_fndtn/models/meshlist.py
+  - src/toan_fndtn/models/meshresponse.py
+  - src/toan_fndtn/models/meshwithowner.py
+  - src/toan_fndtn/models/nullifchange.py
+  - src/toan_fndtn/models/nullifexpressiontransformation.py
+  - src/toan_fndtn/models/optionalsparkconfig.py
+  - src/toan_fndtn/models/orchestratorworkflow.py
+  - src/toan_fndtn/models/orchestratorworkflows.py
+  - src/toan_fndtn/models/organization.py
+  - src/toan_fndtn/models/organizationlist.py
+  - src/toan_fndtn/models/overwriteconfig.py
+  - src/toan_fndtn/models/overwritepartitionsconfig.py
+  - src/toan_fndtn/models/parametertuningsearchtype.py
+  - src/toan_fndtn/models/permissionpair.py
+  - src/toan_fndtn/models/persisttransformation.py
+  - src/toan_fndtn/models/person.py
+  - src/toan_fndtn/models/pivottransformation_input.py
+  - src/toan_fndtn/models/pivottransformation_output.py
+  - src/toan_fndtn/models/policies.py
+  - src/toan_fndtn/models/policy.py
+  - src/toan_fndtn/models/previewstate.py
+  - src/toan_fndtn/models/principals.py
+  - src/toan_fndtn/models/profiling.py
+  - src/toan_fndtn/models/profilingresults.py
+  - src/toan_fndtn/models/purge_user_api_iam_principal_user_purge_deleteop.py
+  - src/toan_fndtn/models/query_data_products_data_api_data_data_product_query_postop.py
+  - src/toan_fndtn/models/querydataproduct.py
+  - src/toan_fndtn/models/queryparams.py
+  - src/toan_fndtn/models/refreshtoken.py
+  - src/toan_fndtn/models/regressionpredictiontransformation.py
+  - src/toan_fndtn/models/regressionpredictiontransformationlstm.py
+  - src/toan_fndtn/models/regressiontrainingtransformation.py
+  - src/toan_fndtn/models/regressiontrainingtransformationlstm.py
+  - src/toan_fndtn/models/remove_entity_metadata_api_data_data_object_metadata_deleteop.py
+  - src/toan_fndtn/models/remove_entity_metadata_api_data_data_product_metadata_deleteop.py
+  - src/toan_fndtn/models/remove_principals_from_role_api_iam_principal_role_member_deleteop.py
+  - src/toan_fndtn/models/remove_tag_api_data_tag_deleteop.py
+  - src/toan_fndtn/models/removeschedule.py
+  - src/toan_fndtn/models/renamecolumntransformation.py
+  - src/toan_fndtn/models/repartitiontransformation.py
+  - src/toan_fndtn/models/replacechaintransformation.py
+  - src/toan_fndtn/models/replacecolumn.py
+  - src/toan_fndtn/models/replaceterm.py
+  - src/toan_fndtn/models/replacetransformation.py
+  - src/toan_fndtn/models/reschedule.py
+  - src/toan_fndtn/models/reset_password_api_iam_password_reset_postop.py
+  - src/toan_fndtn/models/resultlistresponse.py
+  - src/toan_fndtn/models/righttype.py
+  - src/toan_fndtn/models/role.py
+  - src/toan_fndtn/models/rolefullinfo.py
+  - src/toan_fndtn/models/rolepolicy.py
+  - src/toan_fndtn/models/rolesinfo.py
+  - src/toan_fndtn/models/run_compute_builder_api_data_data_product_compute_builder_run_postop.py
+  - src/toan_fndtn/models/run_profiling_api_data_data_product_compute_builder_run_profiling_postop.py
+  - src/toan_fndtn/models/run_quality_api_data_data_product_compute_builder_run_quality_postop.py
+  - src/toan_fndtn/models/runhistory.py
+  - src/toan_fndtn/models/runsqltransformation.py
+  - src/toan_fndtn/models/runstatus.py
+  - src/toan_fndtn/models/s3datasourceconnectiondetails.py
+  - src/toan_fndtn/models/schedule.py
+  - src/toan_fndtn/models/scheduledstatus.py
+  - src/toan_fndtn/models/schema_input.py
+  - src/toan_fndtn/models/schema_output.py
+  - src/toan_fndtn/models/schemafieldmetadata.py
+  - src/toan_fndtn/models/search_entities_api_data_search_getop.py
+  - src/toan_fndtn/models/secret.py
+  - src/toan_fndtn/models/secretkey.py
+  - src/toan_fndtn/models/secrets.py
+  - src/toan_fndtn/models/security.py
+  - src/toan_fndtn/models/selectcolumnstransformation.py
+  - src/toan_fndtn/models/selectexpressiontransformation.py
+  - src/toan_fndtn/models/sensitivity.py
+  - src/toan_fndtn/models/sensitivitylistresponse.py
+  - src/toan_fndtn/models/sorttransformation_input.py
+  - src/toan_fndtn/models/sorttransformation_output.py
+  - src/toan_fndtn/models/sparkdatatype.py
+  - src/toan_fndtn/models/statement.py
+  - src/toan_fndtn/models/storagelevel.py
+  - src/toan_fndtn/models/storeddataproductschema.py
+  - src/toan_fndtn/models/syntheticdatasourceconnectiondetails.py
+  - src/toan_fndtn/models/syntheticparams.py
+  - src/toan_fndtn/models/table.py
+  - src/toan_fndtn/models/tableparams.py
+  - src/toan_fndtn/models/tag.py
+  - src/toan_fndtn/models/taglist.py
+  - src/toan_fndtn/models/timestampcolumn_input.py
+  - src/toan_fndtn/models/timestampcolumn_output.py
+  - src/toan_fndtn/models/timestamptounixtimetransformation_input.py
+  - src/toan_fndtn/models/timestamptounixtimetransformation_output.py
+  - src/toan_fndtn/models/tojsonstructtransformation.py
+  - src/toan_fndtn/models/tojsontransformation.py
+  - src/toan_fndtn/models/tokendataresponse.py
+  - src/toan_fndtn/models/tokenopenid.py
+  - src/toan_fndtn/models/tostructtransformation.py
+  - src/toan_fndtn/models/uniontransformation.py
+  - src/toan_fndtn/models/unixtimestampcolumn.py
+  - src/toan_fndtn/models/unixtimetotimestamptransformation.py
+  - src/toan_fndtn/models/unpivottransformation.py
+  - src/toan_fndtn/models/update_classification_api_data_classification_putop.py
+  - src/toan_fndtn/models/update_classification_by_name_api_data_classification_name_putop.py
+  - src/toan_fndtn/models/update_classification_result_api_data_data_product_classification_result_putop.py
+  - src/toan_fndtn/models/update_classification_rule_api_data_data_product_classification_rule_putop.py
+  - src/toan_fndtn/models/update_compute_builder_api_data_data_product_compute_builder_putop.py
+  - src/toan_fndtn/models/update_compute_file_api_data_data_product_compute_file_putop.py
+  - src/toan_fndtn/models/update_compute_state_api_data_data_product_compute_state_putop.py
+  - src/toan_fndtn/models/update_custom_expectation_api_data_data_product_quality_expectation_custom_putop.py
+  - src/toan_fndtn/models/update_data_object_configuration_api_data_data_object_config_putop.py
+  - src/toan_fndtn/models/update_data_product_host_mesh_api_data_data_product_patchop.py
+  - src/toan_fndtn/models/update_data_product_schema_api_data_data_product_schema_putop.py
+  - src/toan_fndtn/models/update_data_source_connection_api_data_data_source_connection_putop.py
+  - src/toan_fndtn/models/update_data_source_secret_api_data_data_source_secret_putop.py
+  - src/toan_fndtn/models/update_entity_api_data_application_putop.py
+  - src/toan_fndtn/models/update_entity_api_data_data_object_putop.py
+  - src/toan_fndtn/models/update_entity_api_data_data_product_putop.py
+  - src/toan_fndtn/models/update_entity_api_data_data_source_putop.py
+  - src/toan_fndtn/models/update_entity_api_data_data_system_putop.py
+  - src/toan_fndtn/models/update_entity_api_data_mesh_putop.py
+  - src/toan_fndtn/models/update_entity_info_api_data_application_info_putop.py
+  - src/toan_fndtn/models/update_entity_info_api_data_data_object_info_putop.py
+  - src/toan_fndtn/models/update_entity_info_api_data_data_product_info_putop.py
+  - src/toan_fndtn/models/update_entity_info_api_data_data_source_info_putop.py
+  - src/toan_fndtn/models/update_entity_info_api_data_data_system_info_putop.py
+  - src/toan_fndtn/models/update_entity_metadata_api_data_data_object_metadata_putop.py
+  - src/toan_fndtn/models/update_entity_metadata_api_data_data_product_metadata_putop.py
+  - src/toan_fndtn/models/update_expectation_thresholds_api_data_data_product_quality_expectation_thresholds_putop.py
+  - src/toan_fndtn/models/update_expectation_weights_api_data_data_product_quality_expectation_weights_putop.py
+  - src/toan_fndtn/models/update_mesh_pin_api_data_mesh_pin_putop.py
+  - src/toan_fndtn/models/update_orchestrator_workflow_api_data_orchestrator_workflow_putop.py
+  - src/toan_fndtn/models/update_organization_api_iam_organization_putop.py
+  - src/toan_fndtn/models/update_policy_api_iam_policy_putop.py
+  - src/toan_fndtn/models/update_role_api_iam_principal_role_putop.py
+  - src/toan_fndtn/models/update_schema_api_data_data_object_schema_putop.py
+  - src/toan_fndtn/models/update_sensitivity_api_data_sensitivity_putop.py
+  - src/toan_fndtn/models/update_sensitivity_by_name_api_data_sensitivity_name_putop.py
+  - src/toan_fndtn/models/updateapplicationrequest.py
+  - src/toan_fndtn/models/updateclassificationrequest.py
+  - src/toan_fndtn/models/updateclassificationresult.py
+  - src/toan_fndtn/models/updatecomputestate.py
+  - src/toan_fndtn/models/updatedataobjectconfiguration.py
+  - src/toan_fndtn/models/updatedataproductschema.py
+  - src/toan_fndtn/models/updatedatasourceconnection.py
+  - src/toan_fndtn/models/updatedatasystemrequest.py
+  - src/toan_fndtn/models/updateentitymetadatarequest.py
+  - src/toan_fndtn/models/updateentityrequest.py
+  - src/toan_fndtn/models/updatemeshpinrequest.py
+  - src/toan_fndtn/models/updateorchestratorworkflow.py
+  - src/toan_fndtn/models/updateorganization.py
+  - src/toan_fndtn/models/updateschema.py
+  - src/toan_fndtn/models/updatesensitivityrequest.py
+  - src/toan_fndtn/models/user.py
+  - src/toan_fndtn/models/usercredentials.py
+  - src/toan_fndtn/models/userpolicies.py
+  - src/toan_fndtn/models/userpolicy.py
+  - src/toan_fndtn/models/users.py
+  - src/toan_fndtn/models/userwithconditions.py
+  - src/toan_fndtn/models/validation.py
+  - src/toan_fndtn/models/validationerror.py
+  - src/toan_fndtn/models/validationresults.py
+  - src/toan_fndtn/orchestrator_workflow_sdk.py
+  - src/toan_fndtn/organization_management.py
+  - src/toan_fndtn/py.typed
+  - src/toan_fndtn/role_based_identity.py
+  - src/toan_fndtn/role_management.py
+  - src/toan_fndtn/sdk.py
+  - src/toan_fndtn/sdkconfiguration.py
+  - src/toan_fndtn/search.py
+  - src/toan_fndtn/sensitivity_sdk.py
+  - src/toan_fndtn/service_info.py
+  - src/toan_fndtn/types/__init__.py
+  - src/toan_fndtn/types/basemodel.py
+  - src/toan_fndtn/user_based_identity.py
+  - src/toan_fndtn/user_sdk.py
+  - src/toan_fndtn/utils/__init__.py
+  - src/toan_fndtn/utils/annotations.py
+  - src/toan_fndtn/utils/datetimes.py
+  - src/toan_fndtn/utils/enums.py
+  - src/toan_fndtn/utils/eventstreaming.py
+  - src/toan_fndtn/utils/forms.py
+  - src/toan_fndtn/utils/headers.py
+  - src/toan_fndtn/utils/logger.py
+  - src/toan_fndtn/utils/metadata.py
+  - src/toan_fndtn/utils/queryparams.py
+  - src/toan_fndtn/utils/requestbodies.py
+  - src/toan_fndtn/utils/retries.py
+  - src/toan_fndtn/utils/security.py
+  - src/toan_fndtn/utils/serializers.py
+  - src/toan_fndtn/utils/unmarshal_json_response.py
+  - src/toan_fndtn/utils/url.py
+  - src/toan_fndtn/utils/values.py
+examples:
+  get_entities_api_data_application_list_get:
+    speakeasy-default-get-entities-api-data-application-list-get:
+      parameters:
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"entities": []}
+        "422":
+          application/json: {}
+  get_entities_for_query_api_data_application_list_query_get:
+    speakeasy-default-get-entities-for-query-api-data-application-list-query-get:
+      parameters:
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"applications": [{"identifier": "f4fbcf26-4059-456c-bcac-9d44e487d054", "name": "<value>", "data_products": []}]}
+        "422":
+          application/json: {}
+  get_entity_api_data_application_get:
+    speakeasy-default-get-entity-api-data-application-get:
+      parameters:
+        query:
+          identifier: "377a5738-f1d2-490b-acf1-da43bce6adfa"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"entity": {"identifier": "0bfb9802-4c52-431d-9adc-ef8429dbe1e6", "urn": "<value>", "name": "<value>", "is_system": false, "description": "gee seldom off miserably nautical improbable blah yawn", "label": "<value>", "created_at": "2023-01-15T13:56:14.690Z", "state": {"code": "<value>", "reason": "<value>", "healthy": false}, "purpose": "<value>", "accountable_person": {"email": "Carolyne64@yahoo.com", "full_name": "Gary Schuppe Sr."}, "business_impact": "<value>"}, "links": {"parents": [{"identifier": "8aa07d80-83a6-4899-a83f-2decd92399d7", "urn": "<value>", "name": "<value>", "is_system": false, "description": "repeatedly huzzah ack cleave satirise", "label": "<value>", "created_at": "2023-11-03T05:20:24.635Z", "state": {"code": "<value>", "reason": "<value>", "healthy": false}, "entity_type": "data_product"}], "children": []}}
+        "422":
+          application/json: {}
+  update_entity_api_data_application_put:
+    basic:
+      parameters:
+        query:
+          identifier: "e77a7e13-f9b7-4f54-9929-461e830e2ce5"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"entity": {"name": "Application example", "entity_type": "application", "label": "APP", "description": "Updated application", "purpose": "Updated application purpose", "accountable_person": {"email": "updated.example@foundation.internal", "full_name": "Updated Example Foundation"}, "business_impact": "Updated application business impact"}}
+      responses:
+        "200":
+          application/json: {"identifier": "f7443cc8-5772-4e3d-9e99-a32d7fcaf1af", "urn": "<value>", "name": "<value>", "is_system": false, "description": "majority stall that providence brr stall bah", "label": "<value>", "created_at": "2025-10-02T11:16:41.808Z", "state": {"code": "<value>", "reason": "<value>", "healthy": true}, "purpose": "<value>", "accountable_person": {"email": "Rowan56@gmail.com", "full_name": "Rosemary Kub"}, "business_impact": "<value>"}
+        "422":
+          application/json: {}
+  create_entity_api_data_application_post:
+    basic:
+      parameters:
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"entity": {"name": "Application example", "entity_type": "application", "label": "APP", "description": "Example application", "purpose": "Application purpose", "accountable_person": {"email": "example@foundation.internal", "full_name": "Example Foundation"}, "business_impact": "Application business impact"}, "entity_info": {"owner": "owner@example.com", "contact_ids": ["Application contact"], "links": ["example.com"]}}
+      responses:
+        "200":
+          application/json: {"identifier": "859a626c-21ff-4f73-a239-f7c9c26e5dcb", "urn": "<value>", "name": "<value>", "is_system": false, "description": "inconsequential zowie circular neglect glorious", "label": "<value>", "created_at": "2025-10-14T04:44:49.191Z", "state": {"code": "<value>", "reason": "<value>", "healthy": false}, "purpose": "<value>", "accountable_person": {"email": "Sterling_Beahan22@hotmail.com", "full_name": "Sheldon Schmeler Jr."}, "business_impact": "<value>"}
+        "422":
+          application/json: {}
+  delete_entity_api_data_application_delete:
+    speakeasy-default-delete-entity-api-data-application-delete:
+      parameters:
+        query:
+          identifier: "5c22b27f-652f-4670-950c-d8903c8a861e"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+  get_entity_info_api_data_application_info_get:
+    speakeasy-default-get-entity-info-api-data-application-info-get:
+      parameters:
+        query:
+          identifier: "bf82491a-080a-49c1-93c2-5c1a3ea35019"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"owner": "<value>", "contact_ids": ["<value 1>", "<value 2>", "<value 3>"], "links": []}
+        "422":
+          application/json: {}
+  update_entity_info_api_data_application_info_put:
+    speakeasy-default-update-entity-info-api-data-application-info-put:
+      parameters:
+        query:
+          identifier: "404f37e5-9344-49b9-9e34-8ccf6db2de17"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"owner": "<value>", "contact_ids": ["<value 1>"], "links": ["<value 1>"]}
+      responses:
+        "200":
+          application/json: {"owner": "<value>", "contact_ids": ["<value 1>"], "links": ["<value 1>", "<value 2>"]}
+        "422":
+          application/json: {}
+  get_entity_links_api_data_application_link_get:
+    speakeasy-default-get-entity-links-api-data-application-link-get:
+      parameters:
+        query:
+          identifier: "11e140bd-07b4-4de4-835f-b077081811c5"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"parents": [], "children": [{"identifier": "c87a5800-294f-49bf-828a-5d05be6072d1", "urn": "<value>", "name": "<value>", "is_system": false, "description": "below fellow liberalize reiterate circa summer aside athwart popularize yuck", "label": "<value>", "created_at": "2023-04-23T02:02:23.860Z", "state": {"code": "<value>", "reason": "<value>", "healthy": false}, "entity_type": "data_product"}]}
+        "422":
+          application/json: {}
+  get_classifications_api_data_classification_list_get:
+    speakeasy-default-get-classifications-api-data-classification-list-get:
+      parameters:
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"classifications": [{"id": 693687, "name": "<value>", "system_defined": true, "created_at": "2025-09-04T03:26:24.500Z", "updated_at": "2024-08-20T03:32:21.381Z"}]}
+        "422":
+          application/json: {}
+  get_classification_by_name_api_data_classification_name_get:
+    speakeasy-default-get-classification-by-name-api-data-classification-name-get:
+      parameters:
+        query:
+          name: "<value>"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"id": 854349, "name": "<value>", "system_defined": false, "created_at": "2025-04-18T11:39:47.886Z", "updated_at": "2025-03-04T17:51:21.945Z"}
+        "422":
+          application/json: {}
+  update_classification_by_name_api_data_classification_name_put:
+    speakeasy-default-update-classification-by-name-api-data-classification-name-put:
+      parameters:
+        query:
+          name: "<value>"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"new_name": "<value>"}
+      responses:
+        "200":
+          application/json: {"id": 41068, "name": "<value>", "system_defined": false, "created_at": "2025-03-18T07:15:48.987Z", "updated_at": "2025-07-21T15:39:45.147Z"}
+        "422":
+          application/json: {}
+  delete_classification_by_name_api_data_classification_name_delete:
+    speakeasy-default-delete-classification-by-name-api-data-classification-name-delete:
+      parameters:
+        query:
+          name: "<value>"
+        header:
+          x-org: "<value>"
+      responses:
+        "422":
+          application/json: {}
+  get_classification_api_data_classification_get:
+    speakeasy-default-get-classification-api-data-classification-get:
+      parameters:
+        query:
+          classification_id: 474915
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"id": 198653, "name": "<value>", "system_defined": true, "created_at": "2024-03-15T22:27:00.617Z", "updated_at": "2025-07-26T19:58:13.192Z"}
+        "422":
+          application/json: {}
+  update_classification_api_data_classification_put:
+    speakeasy-default-update-classification-api-data-classification-put:
+      parameters:
+        query:
+          classification_id: 431543
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"new_name": "<value>"}
+      responses:
+        "200":
+          application/json: {"id": 200469, "name": "<value>", "system_defined": false, "created_at": "2024-01-29T09:13:05.213Z", "updated_at": "2023-06-03T09:44:54.337Z"}
+        "422":
+          application/json: {}
+  create_classification_api_data_classification_post:
+    speakeasy-default-create-classification-api-data-classification-post:
+      parameters:
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"name": "<value>"}
+      responses:
+        "201":
+          application/json: {"id": 551246, "name": "<value>", "system_defined": false, "created_at": "2025-07-14T01:15:18.405Z", "updated_at": "2025-05-25T07:19:23.549Z"}
+        "422":
+          application/json: {}
+  delete_classification_api_data_classification_delete:
+    speakeasy-default-delete-classification-api-data-classification-delete:
+      parameters:
+        query:
+          classification_id: 499511
+        header:
+          x-org: "<value>"
+      responses:
+        "422":
+          application/json: {}
+  get_entities_api_data_data_system_list_get:
+    speakeasy-default-get-entities-api-data-data-system-list-get:
+      parameters:
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"entities": [{"identifier": "b18c9340-b1cf-49d0-bdcc-c7240da7560e", "urn": "<value>", "name": "<value>", "is_system": false, "description": "upliftingly madly ribbon ravel density duh hmph newsletter", "label": "<value>", "created_at": "2024-08-13T15:44:37.643Z", "state": {"code": "<value>", "reason": "<value>", "healthy": true}, "owner_person": {"email": "Brianne_Osinski@hotmail.com", "full_name": "Mr. Francisco Hoeger DVM"}}]}
+        "422":
+          application/json: {}
+  get_entities_for_query_api_data_data_system_list_query_get:
+    speakeasy-default-get-entities-for-query-api-data-data-system-list-query-get:
+      parameters:
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"data_systems": []}
+        "422":
+          application/json: {}
+  get_entity_api_data_data_system_get:
+    speakeasy-default-get-entity-api-data-data-system-get:
+      parameters:
+        query:
+          identifier: "ac225074-e721-4c7c-aa58-447099d1243a"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"entity": {"identifier": "fa09531d-7b41-4970-9fe8-4cce49e6e4fb", "urn": "<value>", "name": "<value>", "is_system": false, "description": "tightly nor since fantastic yahoo pace", "label": "<value>", "created_at": "2024-04-15T00:47:09.184Z", "state": {"code": "<value>", "reason": "<value>", "healthy": false}, "owner_person": {"email": "Morris_Rutherford71@hotmail.com", "full_name": "Kate Stamm"}}, "links": {"parents": [{"identifier": "ab3d41d8-a672-4080-95b1-12f63cd9d038", "urn": "<value>", "name": "<value>", "is_system": false, "description": "enormously sundae noted smarten quarrelsomely properly reassuringly bah for boohoo", "label": "<value>", "created_at": "2023-04-18T10:08:57.119Z", "state": {"code": "<value>", "reason": "<value>", "healthy": false}, "entity_type": "data_source"}], "children": []}}
+        "422":
+          application/json: {}
+  update_entity_api_data_data_system_put:
+    basic:
+      parameters:
+        query:
+          identifier: "d9dcb1c5-c77c-4366-861f-83667b50f8ae"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"entity": {"name": "Data system example", "entity_type": "data_system", "label": "DSS", "description": "Updated data system", "owner_person": {"email": "Karley_Casper22@hotmail.com", "full_name": "Darlene Marks"}}}
+      responses:
+        "200":
+          application/json: {"identifier": "3f53c92a-9f99-4b8a-ab5e-65a277d25b34", "urn": "<value>", "name": "<value>", "is_system": false, "description": "as yuck suspiciously sharply shakily roughly so", "label": "<value>", "created_at": "2023-09-29T08:41:28.392Z", "state": {"code": "<value>", "reason": "<value>", "healthy": false}, "owner_person": {"email": "Karley_Casper22@hotmail.com", "full_name": "Darlene Marks"}}
+        "422":
+          application/json: {}
+  create_entity_api_data_data_system_post:
+    basic:
+      parameters:
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"entity": {"name": "Data System example", "entity_type": "data_system", "label": "DSS", "description": "Example data system", "owner_person": {"email": "Miles10@yahoo.com", "full_name": "Constance Breitenberg-Mayer"}}, "entity_info": {"owner": "owner@example.com", "contact_ids": ["Application contact"], "links": ["example.com"]}}
+      responses:
+        "200":
+          application/json: {"identifier": "839c3e22-c41b-4322-978f-70c4e4a5a4df", "urn": "<value>", "name": "<value>", "is_system": false, "description": "furthermore that astonishing knotty gadzooks huzzah desecrate madly scared", "label": "<value>", "created_at": "2024-07-27T05:37:12.673Z", "state": {"code": "<value>", "reason": "<value>", "healthy": true}, "owner_person": {"email": "Miles10@yahoo.com", "full_name": "Constance Breitenberg-Mayer"}}
+        "422":
+          application/json: {}
+  delete_entity_api_data_data_system_delete:
+    speakeasy-default-delete-entity-api-data-data-system-delete:
+      parameters:
+        query:
+          identifier: "d5b8b0b1-ae36-44b7-b83c-f830ce4a80ed"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+  get_entity_info_api_data_data_system_info_get:
+    speakeasy-default-get-entity-info-api-data-data-system-info-get:
+      parameters:
+        query:
+          identifier: "57b3a1ef-d531-4c38-b80c-09b38e4a4c15"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"owner": "<value>", "contact_ids": ["<value 1>", "<value 2>"], "links": ["<value 1>", "<value 2>"]}
+        "422":
+          application/json: {}
+  update_entity_info_api_data_data_system_info_put:
+    speakeasy-default-update-entity-info-api-data-data-system-info-put:
+      parameters:
+        query:
+          identifier: "8003da39-5fe7-4533-8158-4d6cdd1d99a2"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"owner": "<value>", "contact_ids": [], "links": ["<value 1>"]}
+      responses:
+        "200":
+          application/json: {"owner": "<value>", "contact_ids": [], "links": ["<value 1>", "<value 2>"]}
+        "422":
+          application/json: {}
+  get_entity_links_api_data_data_system_link_get:
+    speakeasy-default-get-entity-links-api-data-data-system-link-get:
+      parameters:
+        query:
+          identifier: "b3d9ad06-c15b-4a7f-a05e-a390ca4ca72f"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"parents": [], "children": [{"identifier": "e3ccc2d7-9e26-4356-a171-d87d4cc8770f", "urn": "<value>", "name": "<value>", "is_system": false, "description": "reluctantly rule meager fooey boohoo gerbil fathom", "label": "<value>", "created_at": "2023-07-18T17:37:32.300Z", "state": {"code": "<value>", "reason": "<value>", "healthy": false}, "entity_type": "data_source"}]}
+        "422":
+          application/json: {}
+  link_data_system_api_data_link_data_system_data_source_post:
+    speakeasy-default-link-data-system-api-data-link-data-system-data-source-post:
+      parameters:
+        query:
+          identifier: "8f1450a5-3719-4793-af98-a8c9cf2253a2"
+          child_identifier: "07933a65-ad43-499e-8b07-ce5459a07362"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"parent": {"identifier": "f3226af1-ce64-4790-bf15-614aa5b9a286", "urn": "<value>", "name": "<value>", "is_system": false, "description": "heartache allocation geez distant", "label": "<value>", "created_at": "2023-01-31T17:53:46.327Z", "state": {"code": "<value>", "reason": "<value>", "healthy": false}, "entity_type": "data_source"}, "child": {"identifier": "3a23afdf-3b3e-43ec-a5db-923a96a7aab1", "urn": "<value>", "name": "<value>", "is_system": false, "description": "trained wobbly out apud pear yearly deduction", "label": "<value>", "created_at": "2024-10-07T10:18:05.405Z", "state": {"code": "<value>", "reason": "<value>", "healthy": false}, "entity_type": "mesh"}}
+        "422":
+          application/json: {}
+  delete_entity_link_api_data_link_data_system_data_source_delete:
+    speakeasy-default-delete-entity-link-api-data-link-data-system-data-source-delete:
+      parameters:
+        query:
+          identifier: "1f0d14fd-3686-43b7-96b6-9ccd9e7a2004"
+          child_identifier: "8dc87d76-5c24-42a2-b19f-ef6029a25b91"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+  get_entities_api_data_data_product_list_get:
+    speakeasy-default-get-entities-api-data-data-product-list-get:
+      parameters:
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"entities": []}
+        "422":
+          application/json: {}
+  get_queryable_entities_api_data_data_product_list_query_get:
+    speakeasy-default-get-queryable-entities-api-data-data-product-list-query-get:
+      parameters:
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"entities": []}
+        "422":
+          application/json: {}
+  get_data_product_consumers_api_data_data_product_consumers_get:
+    speakeasy-default-get-data-product-consumers-api-data-data-product-consumers-get:
+      parameters:
+        query:
+          identifier: "16a6bdc5-843f-4a2e-965f-ba237f0f3b08"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"consumers": []}
+        "422":
+          application/json: {}
+  get_entity_api_data_data_product_get:
+    speakeasy-default-get-entity-api-data-data-product-get:
+      parameters:
+        query:
+          identifier: "3183bfd2-e3f6-4e67-9b3a-73572c4e2871"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"entity": {"identifier": "f9d1d5f3-9f82-4d4e-90ad-197a26e54724", "urn": "<value>", "name": "<value>", "is_system": false, "description": "quarrelsomely turret elegantly row murky afore", "label": "<value>", "created_at": "2024-04-28T04:32:40.218Z", "state": {"code": "<value>", "reason": "<value>", "healthy": true}, "host_mesh_identifier": "ca613b0a-2369-414a-8035-e00dde2b9ef6"}, "links": {"parents": [{"identifier": "395e1b3f-6a15-4b8d-8d5e-63d7d8049621", "urn": "<value>", "name": "<value>", "is_system": false, "description": "down because hefty lavish crumble gloomy", "label": "<value>", "created_at": "2025-03-15T01:35:35.942Z", "state": {"code": "<value>", "reason": "<value>", "healthy": true}, "entity_type": "data_object"}], "children": []}, "schema_available": true, "tags": ["<value 1>", "<value 2>"]}
+        "422":
+          application/json: {}
+  update_entity_api_data_data_product_put:
+    basic:
+      parameters:
+        query:
+          identifier: "c3bd9210-f154-4e8f-9b00-f7b504cb7a6e"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"entity": {"name": "Product example", "entity_type": "data_product", "label": "DPU", "description": "This data product was updated."}}
+      responses:
+        "200":
+          application/json: {"identifier": "45505d4f-bd8c-4716-af59-1e8252e53bbc", "urn": "<value>", "name": "<value>", "is_system": false, "description": "knitting once guzzle after understated ah ultimate till kaleidoscopic", "label": "<value>", "created_at": "2024-07-05T17:26:32.341Z", "state": {"code": "<value>", "reason": "<value>", "healthy": true}}
+        "422":
+          application/json: {}
+  create_entity_api_data_data_product_post:
+    basic:
+      parameters:
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"entity": {"name": "Product example", "entity_type": "data_product", "label": "DPE", "description": "This is an example for data product"}, "entity_info": {"owner": "owner@example.com", "contact_ids": ["Product contact"], "links": ["example.com"]}}
+      responses:
+        "200":
+          application/json: {"entity": {"identifier": "2791a05f-806a-4561-9e63-3c454dae4cf8", "urn": "<value>", "name": "<value>", "is_system": false, "description": "anenst yin rebel", "label": "<value>", "created_at": "2024-05-08T21:39:43.156Z", "state": {"code": "<value>", "reason": "<value>", "healthy": false}}, "links": {"parents": [{"identifier": "90ca9df7-a228-4649-a387-b925084700a6", "urn": "<value>", "name": "<value>", "is_system": false, "description": "aha deceivingly heating um drat microblog", "label": "<value>", "created_at": "2025-08-28T04:03:36.910Z", "state": {"code": "<value>", "reason": "<value>", "healthy": false}, "entity_type": "application"}], "children": [{"identifier": "9e8cdc7b-850d-42be-ae22-22c0aa60295f", "urn": "<value>", "name": "<value>", "is_system": false, "description": "ack quizzically before enchanted till or familiarize vision on", "label": "<value>", "created_at": "2024-08-01T21:52:23.160Z", "state": {"code": "<value>", "reason": "<value>", "healthy": false}, "entity_type": "mesh"}]}}
+        "422":
+          application/json: {}
+  delete_entity_api_data_data_product_delete:
+    speakeasy-default-delete-entity-api-data-data-product-delete:
+      parameters:
+        query:
+          identifier: "7c0a443d-8420-425b-92d4-4f2cea1047e4"
+          force: false
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+  update_data_product_host_mesh_api_data_data_product_patch:
+    speakeasy-default-update-data-product-host-mesh-api-data-data-product-patch:
+      parameters:
+        query:
+          identifier: "91fd8fc0-ea0d-417b-8f12-1a4e12993feb"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"mesh_identifier": "f81ce9cb-f1b7-422d-b50a-4d1a4b0ecfab"}
+      responses:
+        "200":
+          application/json: "<value>"
+        "422":
+          application/json: {}
+  query_data_products_data_api_data_data_product_query_post:
+    basic:
+      parameters:
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"query": "select * from data_product_table_name"}
+      responses:
+        "200":
+          application/json: "<value>"
+        "422":
+          application/json: {}
+  get_expectation_rules_api_data_data_product_expectation_rules_get:
+    speakeasy-default-get-expectation-rules-api-data-data-product-expectation-rules-get:
+      parameters:
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"rules": []}
+        "422":
+          application/json: {}
+  data_product_share_api_data_data_product_share_post:
+    speakeasy-default-data-product-share-api-data-data-product-share-post:
+      parameters:
+        query:
+          identifier: "baa8be89-f342-4061-8e00-ab079bfb5238"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"mesh_identifier": "7756af39-81c0-4ee4-b621-7ef8d9c01e04"}
+      responses:
+        "200":
+          application/json: {"key": "<value>"}
+        "422":
+          application/json: {}
+  data_product_unshare_api_data_data_product_unshare_post:
+    speakeasy-default-data-product-unshare-api-data-data-product-unshare-post:
+      parameters:
+        query:
+          identifier: "be10da66-324e-4f2e-ba04-710aa7c40954"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"mesh_identifier": "4403f712-f7b6-46af-8d15-6455fc004a15"}
+      responses:
+        "200":
+          application/json: {"key": "<value>"}
+        "422":
+          application/json: {}
+  get_entity_links_api_data_data_product_link_get:
+    speakeasy-default-get-entity-links-api-data-data-product-link-get:
+      parameters:
+        query:
+          identifier: "fbcecdfa-b2c2-47e3-b375-0d81dea6d7c8"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"parents": [], "children": []}
+        "422":
+          application/json: {}
+  get_entity_info_api_data_data_product_info_get:
+    speakeasy-default-get-entity-info-api-data-data-product-info-get:
+      parameters:
+        query:
+          identifier: "91491802-222f-4475-9573-bf38d79fec85"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"owner": "<value>", "contact_ids": [], "links": []}
+        "422":
+          application/json: {}
+  update_entity_info_api_data_data_product_info_put:
+    speakeasy-default-update-entity-info-api-data-data-product-info-put:
+      parameters:
+        query:
+          identifier: "e420f4da-516c-488b-a998-6587ec990681"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"owner": "<value>", "contact_ids": ["<value 1>", "<value 2>", "<value 3>"], "links": []}
+      responses:
+        "200":
+          application/json: {"owner": "<value>", "contact_ids": [], "links": ["<value 1>", "<value 2>", "<value 3>"]}
+        "422":
+          application/json: {}
+  get_data_product_metadata_api_data_data_product_metadata_v2_get:
+    speakeasy-default-get-data-product-metadata-api-data-data-product-metadata-v2-get:
+      parameters:
+        query:
+          identifier: "91b7d903-4e4c-48e7-a416-40762f63c2bf"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"tags": ["<value 1>", "<value 2>", "<value 3>"]}
+        "422":
+          application/json: {}
+  get_entity_metadata_api_data_data_product_metadata_get:
+    speakeasy-default-get-entity-metadata-api-data-data-product-metadata-get:
+      parameters:
+        query:
+          identifier: "70715acc-bb8b-4856-ade5-aae0cf8ffa63"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"identifier": "<value>", "sanitized_name": "<value>", "created": "2025-11-03T09:44:04.129Z", "last_updated": "2023-08-10T18:19:11.922Z", "is_active": false, "tags": ["<value 1>", "<value 2>"], "name": "<value>"}
+        "422":
+          application/json: {}
+  update_entity_metadata_api_data_data_product_metadata_put:
+    entity_level:
+      parameters:
+        query:
+          identifier: "0b207c46-963c-4b4a-9f4c-4952deb9a438"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"fields": {}, "tags": ["public"]}
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+    field_level:
+      parameters:
+        query:
+          identifier: "a7bc32d1-54c2-4037-bcd3-e7014064e197"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"fields": {"foo": {"tags": ["secret"], "description": "Hide this field", "primary": false, "optional": false}}, "tags": []}
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+    both_level:
+      parameters:
+        query:
+          identifier: "9d06faeb-1037-4f65-a196-de602707df0d"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"fields": {"foo": {"tags": ["secret"], "description": "Hide this field", "primary": false, "optional": false}}, "tags": ["public"]}
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+  add_entity_metadata_api_data_data_product_metadata_post:
+    entity_level:
+      parameters:
+        query:
+          identifier: "23c7eccb-70ae-4cba-9b37-babc8a1d4b60"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"fields": {}, "tags": ["public"]}
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+    field_level:
+      parameters:
+        query:
+          identifier: "1c50d93f-4dc0-4792-94ce-758be1546512"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"fields": {"foo": {"tags": ["secret"], "description": "Hide this field", "primary": false, "optional": false}}, "tags": []}
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+    both_level:
+      parameters:
+        query:
+          identifier: "218a3780-6a91-4640-9208-66c94c6ba375"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"fields": {"foo": {"tags": ["secret"], "description": "Hide this field", "primary": false, "optional": false}}, "tags": ["public"]}
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+  remove_entity_metadata_api_data_data_product_metadata_delete:
+    entity_level:
+      parameters:
+        query:
+          identifier: "b53e59f8-02af-48d1-8f57-871bf8b2707b"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"fields": {}, "tags": ["public"]}
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+    field_level:
+      parameters:
+        query:
+          identifier: "dd797bd7-9d19-45f4-8427-da99018182b6"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"fields": {"foo": {"tags": ["secret"], "primary": false, "optional": false}}, "tags": []}
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+    both_level:
+      parameters:
+        query:
+          identifier: "ece90f96-1808-487d-a556-17ca707edc15"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"fields": {"foo": {"tags": ["secret"], "primary": false, "optional": false}}, "tags": ["public"]}
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+  get_schema_api_data_data_product_schema_get:
+    speakeasy-default-get-schema-api-data-data-product-schema-get:
+      parameters:
+        query:
+          identifier: "6e023d4f-e773-432d-93fa-3cdc5f52e0a5"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"fields": []}
+        "422":
+          application/json: {}
+  update_data_product_schema_api_data_data_product_schema_put:
+    stored:
+      parameters:
+        query:
+          identifier: "d946a7c0-60ee-431c-ad34-bf52c2336410"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"details": {"data_product_type": "stored", "iceberg_table_properties": {"table_format": "PARQUET", "partitioning": ["a"], "location": "b", "format_version": 1}, "fields": [{"name": "foo", "primary": true, "optional": false, "data_type": {"meta": {}, "column_type": "VARCHAR"}}, {"name": "year", "primary": true, "optional": false, "data_type": {"meta": {}, "column_type": "INTEGER"}}]}}
+      responses:
+        "200":
+          application/json: {"fields": [{"name": "<value>", "primary": false, "optional": false, "data_type": {"meta": {"key": "<value>", "key1": "<value>"}, "column_type": "TIMESTAMP"}, "tags": ["<value 1>", "<value 2>", "<value 3>"]}]}
+        "422":
+          application/json: {}
+  get_expectation_results_api_data_data_product_quality_expectation_get:
+    speakeasy-default-get-expectation-results-api-data-data-product-quality-expectation-get:
+      parameters:
+        query:
+          identifier: "86a242c2-1a5e-406a-9737-2685a7525302"
+          last_only: true
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"results": [{"id": "<id>", "entity": "<value>", "expectations": {"auto": [], "custom": []}, "created_at": "2024-02-10T00:43:34.232Z"}]}
+        "422":
+          application/json: {}
+  update_custom_expectation_api_data_data_product_quality_expectation_custom_put:
+    update:
+      parameters:
+        query:
+          identifier: "23b9945b-b765-4387-9c0e-f4e04b9a9c0d"
+          custom_identifier: "188573d5-20e5-45cc-9356-eeda74b1af02"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"type": "expect_column_values_to_be_between", "kwargs": {"column": "year", "min_value": 1980, "max_value": 2020}, "meta": {"description": "Expect a year min max values"}}
+      responses:
+        "200":
+          application/json: {"id": "<id>", "entity": "<value>", "expectations": {"auto": [{"type": "<value>", "kwargs": {"key": "<value>"}, "meta": {"key": "<value>", "key1": "<value>"}}], "custom": []}, "created_at": "2023-10-07T18:22:56.506Z"}
+        "422":
+          application/json: {}
+  add_custom_expectation_api_data_data_product_quality_expectation_custom_post:
+    update:
+      parameters:
+        query:
+          identifier: "581f9672-fec7-43cd-ace6-6ef336b69f04"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"type": "expect_column_values_to_be_between", "kwargs": {"column": "year", "min_value": 1980, "max_value": 2020}, "meta": {"description": "Expect a year min max values"}}
+      responses:
+        "200":
+          application/json: {"id": "<id>", "entity": "<value>", "expectations": {"auto": [{"type": "<value>", "kwargs": {"key": "<value>", "key1": "<value>", "key2": "<value>"}, "meta": {}}], "custom": []}, "created_at": "2024-09-22T14:11:05.604Z"}
+        "422":
+          application/json: {}
+  delete_custom_expectation_api_data_data_product_quality_expectation_custom_delete:
+    speakeasy-default-delete-custom-expectation-api-data-data-product-quality-expectation-custom-delete:
+      parameters:
+        query:
+          identifier: "5da75d5a-d463-4f57-96b4-61f70b540f22"
+          custom_identifier: "db4a209b-29cd-47a1-9410-8d48a44785fe"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+  update_expectation_weights_api_data_data_product_quality_expectation_weights_put:
+    update:
+      parameters:
+        query:
+          identifier: "1b37052b-2eb5-42e6-b75e-69032759db18"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"accuracy": 0.2, "completeness": 0.3, "consistency": 0.1, "uniqueness": 0.1, "validity": 0.3}
+      responses:
+        "200":
+          application/json: {"id": "<id>", "entity": "<value>", "expectations": {"auto": [], "custom": []}, "created_at": "2025-08-18T05:10:23.172Z"}
+        "422":
+          application/json: {}
+  update_expectation_thresholds_api_data_data_product_quality_expectation_thresholds_put:
+    update:
+      parameters:
+        query:
+          identifier: "b3aef7b1-5703-4c66-a4c6-0cd1c6399505"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"table": 0.8, "columns": {"foo": {"accuracy": 0.9, "completeness": 0.9, "consistency": 1, "uniqueness": 1, "validity": 1}}}
+      responses:
+        "200":
+          application/json: {"id": "<id>", "entity": "<value>", "expectations": {"auto": [{"type": "<value>", "kwargs": {}, "meta": {"key": "<value>", "key1": "<value>"}}], "custom": [{"type": "<value>", "kwargs": {"key": "<value>"}, "meta": {}}]}, "created_at": "2023-04-26T22:55:09.807Z"}
+        "422":
+          application/json: {}
+  get_profiling_results_api_data_data_product_quality_profiling_get:
+    speakeasy-default-get-profiling-results-api-data-data-product-quality-profiling-get:
+      parameters:
+        query:
+          identifier: "ac437884-1b94-4a4a-b9e0-aff2e8a79ede"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"results": [{"id": "<id>", "entity": "<value>", "row_count": 901869, "column_count": 624841, "profile_sample": 1232.06, "column_stats": "<value>", "created_at": "2025-09-29T09:21:48.983Z"}]}
+        "422":
+          application/json: {}
+  get_validation_results_api_data_data_product_quality_validations_get:
+    speakeasy-default-get-validation-results-api-data-data-product-quality-validations-get:
+      parameters:
+        query:
+          identifier: "860cdb7e-be1c-4092-97c7-81209c454bf3"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"results": []}
+        "422":
+          application/json: {}
+  get_data_product_quality_overview_api_data_data_product_quality_overview_get:
+    speakeasy-default-get-data-product-quality-overview-api-data-data-product-quality-overview-get:
+      parameters:
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"total_products": 0, "healthy_products": 0, "critical_products": 0, "avg_quality_score": 0}
+        "422":
+          application/json: {}
+  get_classification_rule_api_data_data_product_classification_rule_get:
+    speakeasy-default-get-classification-rule-api-data-data-product-classification-rule-get:
+      parameters:
+        query:
+          identifier: "de00a2bb-359d-4769-8f75-3f96f7481fb5"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"model": "Element", "excluded_columns": ["<value 1>", "<value 2>"], "regex_recognizers": [{"name": "<value>", "description": "loaf heavy given", "label": "<value>", "patterns": []}]}
+        "422":
+          application/json: {}
+  update_classification_rule_api_data_data_product_classification_rule_put:
+    update:
+      parameters:
+        query:
+          identifier: "8e2e7f9c-7e6c-4696-9af1-0940085a5671"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"model": "", "excluded_columns": [], "regex_recognizers": [{"name": "Super recognizer", "description": "Description goes here...", "label": "SUPER", "patterns": [".*(super).*"]}]}
+      responses:
+        "200":
+          application/json: {"model": "LeBaron", "excluded_columns": ["<value 1>"], "regex_recognizers": [{"name": "<value>", "description": "before except musty uh-huh", "label": "<value>", "patterns": ["<value 1>", "<value 2>"]}]}
+        "422":
+          application/json: {}
+  get_classification_result_api_data_data_product_classification_result_get:
+    speakeasy-default-get-classification-result-api-data-data-product-classification-result-get:
+      parameters:
+        query:
+          identifier: "30759df9-e391-4eae-83f4-7a6325ee0a43"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"results": [{"identifier": "22913b6e-3171-40f7-ae8e-f667f2b91371", "config": {}, "field": "<value>", "label": "<value>", "resolved": false, "created_at": "2023-01-04T13:43:44.705Z", "updated_at": "2024-08-13T21:20:41.585Z"}]}
+        "422":
+          application/json: {}
+  update_classification_result_api_data_data_product_classification_result_put:
+    speakeasy-default-update-classification-result-api-data-data-product-classification-result-put:
+      parameters:
+        query:
+          identifier: "a8a32e78-27f8-4b8f-813c-bcbf135f4f02"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"resolve": []}
+      responses:
+        "200":
+          application/json: {"results": []}
+        "422":
+          application/json: {}
+  get_data_product_data_api_data_data_product_data_get:
+    speakeasy-default-get-data-product-data-api-data-data-product-data-get:
+      parameters:
+        query:
+          identifier: "d8c257ce-142b-4937-aad3-9a660f3d5ccf"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"results": [{"key": "<value>", "key1": "<value>", "key2": "<value>"}, {"key": "<value>", "key1": "<value>", "key2": "<value>"}]}
+        "422":
+          application/json: {}
+  delete_data_api_data_data_product_data_delete:
+    speakeasy-default-delete-data-api-data-data-product-data-delete:
+      parameters:
+        query:
+          identifier: "9046fa7c-5eff-46e6-b91e-243dfe3c29a5"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+  get_compute_file_api_data_data_product_compute_file_get:
+    speakeasy-default-get-compute-file-api-data-data-product-compute-file-get:
+      parameters:
+        query:
+          identifier: "5579933f-6df7-42ce-bd79-805a142ef084"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: "<value>"
+        "422":
+          application/json: {}
+  update_compute_file_api_data_data_product_compute_file_put:
+    speakeasy-default-update-compute-file-api-data-data-product-compute-file-put:
+      parameters:
+        query:
+          identifier: "9ba9c5f2-3a04-46e8-b2fb-f1cc5e325ab3"
+        header:
+          x-org: "<value>"
+      requestBody:
+        multipart/form-data: {"compute_file": "x-file: example.file"}
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+  delete_compute_file_api_data_data_product_compute_file_delete:
+    speakeasy-default-delete-compute-file-api-data-data-product-compute-file-delete:
+      parameters:
+        query:
+          identifier: "7c7ea822-9420-438e-982a-b7c7acda7b54"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: "<value>"
+        "422":
+          application/json: {}
+  get_compute_builder_api_data_data_product_compute_builder_get:
+    speakeasy-default-get-compute-builder-api-data-data-product-compute-builder-get:
+      parameters:
+        query:
+          identifier: "5cb18699-8aba-48c4-8d0d-3b3e0d86ae67"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"config": {"docker_tag": "0.1.1", "executor_core_request": "100m", "executor_core_limit": "1000m", "executor_instances": 1, "min_executor_instances": 1, "executor_memory": "512m", "driver_core_request": "0.1", "driver_core_limit": "800m", "driver_memory": "512m"}, "inputs": {}, "transformations": [{"transform": "add_current_timestamp", "input": "<value>", "output": "<value>", "column": "<value>"}], "finalisers": {"input": "<value>", "enable_quality": false, "write_config": {"mode": "overwrite_partitions"}, "enable_profiling": true, "enable_classification": false}, "preview": false}
+        "422":
+          application/json: {}
+  update_compute_builder_api_data_data_product_compute_builder_put:
+    speakeasy-default-update-compute-builder-api-data-data-product-compute-builder-put:
+      parameters:
+        query:
+          identifier: "c517898c-9ebd-4e65-9076-6e3821a64773"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"config": {"docker_tag": "0.1.1", "executor_core_request": "100m", "executor_core_limit": "1000m", "executor_instances": 1, "min_executor_instances": 1, "executor_memory": "512m", "driver_core_request": "0.1", "driver_core_limit": "800m", "driver_memory": "512m"}, "inputs": {}, "transformations": [], "finalisers": {"input": "<value>", "enable_quality": false, "write_config": {"mode": "overwrite_partitions"}, "enable_profiling": true, "enable_classification": true}, "preview": false}
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+  run_compute_builder_api_data_data_product_compute_builder_run_post:
+    speakeasy-default-run-compute-builder-api-data-data-product-compute-builder-run-post:
+      parameters:
+        query:
+          identifier: "a16ed8b8-0db6-4498-a4b9-60dc5ebf77c5"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+  run_quality_api_data_data_product_compute_builder_run_quality_post:
+    speakeasy-default-run-quality-api-data-data-product-compute-builder-run-quality-post:
+      parameters:
+        query:
+          identifier: "73b0f0f8-de87-45cf-94a2-6c3f5f419059"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"config": {"docker_tag": "0.1.1", "executor_core_request": "100m", "executor_core_limit": "1000m", "executor_instances": 1, "min_executor_instances": 1, "executor_memory": "512m", "driver_core_request": "0.1", "driver_core_limit": "800m", "driver_memory": "512m"}}
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+  run_profiling_api_data_data_product_compute_builder_run_profiling_post:
+    speakeasy-default-run-profiling-api-data-data-product-compute-builder-run-profiling-post:
+      parameters:
+        query:
+          identifier: "57fd37bc-3810-45b6-85ce-7eb28d90e7eb"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"config": {"docker_tag": "0.1.1", "executor_core_request": "100m", "executor_core_limit": "1000m", "executor_instances": 1, "min_executor_instances": 1, "executor_memory": "512m", "driver_core_request": "0.1", "driver_core_limit": "800m", "driver_memory": "512m"}}
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+  get_compute_builder_state_api_data_data_product_compute_builder_state_get:
+    speakeasy-default-get-compute-builder-state-api-data-data-product-compute-builder-state-get:
+      parameters:
+        query:
+          identifier: "48e3aa68-c7a7-46bd-b809-97082815fd03"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"state": [{"transform": "<value>"}]}
+        "422":
+          application/json: {}
+  update_compute_state_api_data_data_product_compute_state_put:
+    remove_job:
+      parameters:
+        query:
+          identifier: "281365c7-a549-43d7-b864-d5cf1eb10b43"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"state": {"state": "kill_job"}}
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+    schedule:
+      parameters:
+        query:
+          identifier: "c3ece34a-2552-4e27-9efd-94eb5edbfcf2"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"state": {"cron_expression": "*/30 * * * *", "state": "schedule"}}
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+    reschedule:
+      parameters:
+        query:
+          identifier: "ba5321b7-d88f-47c1-bdb2-cc5769824720"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"state": {"cron_expression": "0 * * * *", "state": "reschedule"}}
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+    unschedule:
+      parameters:
+        query:
+          identifier: "34c41409-3d76-44ee-be6d-8a72dfd8f2d6"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"state": {"state": "remove_schedule"}}
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+  get_compute_lineage_api_data_data_product_compute_lineage_get:
+    speakeasy-default-get-compute-lineage-api-data-data-product-compute-lineage-get:
+      parameters:
+        query:
+          identifier: "a0c4bec5-c9b3-4cab-8463-f40ffe35a92c"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"ok": true, "directed": true, "multigraph": false}
+        "422":
+          application/json: {}
+  get_lineage_data_product_api_data_data_product_lineage_get:
+    speakeasy-default-get-lineage-data-product-api-data-data-product-lineage-get:
+      parameters:
+        query:
+          identifier: "c60c11bc-af60-475e-b8ea-528adc1317ac"
+          show_jobs: true
+          depth: 20
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"ok": true, "directed": true, "multigraph": false}
+        "422":
+          application/json: {}
+  link_data_products_api_data_link_data_product_data_product_post:
+    speakeasy-default-link-data-products-api-data-link-data-product-data-product-post:
+      parameters:
+        query:
+          identifier: "f9881f3a-10cc-4171-a45f-34a59fd9d2d4"
+          child_identifier: "f5958481-7019-42bb-b71d-fbb854b758a8"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"parent": {"identifier": "cc9fc997-53ee-4fc0-a902-8c04867141d5", "urn": "<value>", "name": "<value>", "is_system": false, "description": "rural than purse portray dimly over uh-huh tomatillo circa", "label": "<value>", "created_at": "2025-05-28T17:06:58.885Z", "state": {"code": "<value>", "reason": "<value>", "healthy": false}, "entity_type": "data_system"}, "child": {"identifier": "cf92bc6a-88b4-464c-9117-8d8249d341b5", "urn": "<value>", "name": "<value>", "is_system": false, "description": "boo ah loosely eventually flickering", "label": "<value>", "created_at": "2025-03-12T01:17:33.787Z", "state": {"code": "<value>", "reason": "<value>", "healthy": false}, "entity_type": "data_object"}}
+        "422":
+          application/json: {}
+  delete_data_product_link_api_data_link_data_product_data_product_delete:
+    speakeasy-default-delete-data-product-link-api-data-link-data-product-data-product-delete:
+      parameters:
+        query:
+          identifier: "2edd1d7e-aa57-4977-888b-0824da626afb"
+          child_identifier: "ae634fff-f560-4175-a086-8d70f95915e0"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+  link_application_api_data_link_data_product_application_post:
+    speakeasy-default-link-application-api-data-link-data-product-application-post:
+      parameters:
+        query:
+          identifier: "7af5845f-0f25-4660-8d51-f3dadd9fbc4f"
+          child_identifier: "42dca4e6-3d60-4a22-9017-0b14532c6402"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"parent": {"identifier": "5ddf72a0-3f3c-4cec-a98e-d51d06e0fa21", "urn": "<value>", "name": "<value>", "is_system": false, "description": "unethically opposite while knickers ah across spherical duh strictly transcend", "label": "<value>", "created_at": "2024-11-25T22:59:14.206Z", "state": {"code": "<value>", "reason": "<value>", "healthy": false}, "entity_type": "data_system"}, "child": {"identifier": "47016241-8b77-428d-bb1c-c7298a6cb855", "urn": "<value>", "name": "<value>", "is_system": false, "description": "impossible who ick dead pish psst woefully bide er relaunch", "label": "<value>", "created_at": "2023-06-23T17:59:56.898Z", "state": {"code": "<value>", "reason": "<value>", "healthy": false}, "entity_type": "data_object"}}
+        "422":
+          application/json: {}
+  delete_application_link_api_data_link_data_product_application_delete:
+    speakeasy-default-delete-application-link-api-data-link-data-product-application-delete:
+      parameters:
+        query:
+          identifier: "cd1b4518-89c6-4aa8-ab83-242bf3ea8245"
+          child_identifier: "4ce1b026-8081-40f1-8efd-fe0ad6c2df01"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+  link_entities_api_data_link_data_object_data_product_post:
+    speakeasy-default-link-entities-api-data-link-data-object-data-product-post:
+      parameters:
+        query:
+          identifier: "0ba97b02-17af-4770-9824-f02b7cedfc0c"
+          child_identifier: "15582c5a-fde7-40d5-a32a-15d092052094"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"parent": {"identifier": "c2e462d1-5466-4ef3-945c-5a0359c9c8bc", "urn": "<value>", "name": "<value>", "is_system": false, "description": "critical vacantly sarong optimistically grade norm extremely pish nor enfold", "label": "<value>", "created_at": "2025-11-16T05:19:35.056Z", "state": {"code": "<value>", "reason": "<value>", "healthy": false}, "entity_type": "data_product"}, "child": {"identifier": "0b2c1b9c-e324-436c-8abb-873ef7f07f25", "urn": "<value>", "name": "<value>", "is_system": false, "description": "because off joyfully", "label": "<value>", "created_at": "2025-12-26T12:04:32.985Z", "state": {"code": "<value>", "reason": "<value>", "healthy": false}, "entity_type": "mesh"}}
+        "422":
+          application/json: {}
+  delete_entity_link_api_data_link_data_object_data_product_delete:
+    speakeasy-default-delete-entity-link-api-data-link-data-object-data-product-delete:
+      parameters:
+        query:
+          identifier: "992176f5-9381-4f6e-913d-1b00a2a1e6af"
+          child_identifier: "0d251da7-2050-4e5e-a92a-929260fa7f5e"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+  link_entities_api_data_link_data_source_data_object_post:
+    speakeasy-default-link-entities-api-data-link-data-source-data-object-post:
+      parameters:
+        query:
+          identifier: "c263e2b5-0c4c-4adf-a52e-8d2559de1bcb"
+          child_identifier: "d45ed10f-0d48-4143-a070-0b371d91b921"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"parent": {"identifier": "b40c23d2-f885-4eec-9826-4c3f55b3161f", "urn": "<value>", "name": "<value>", "is_system": false, "description": "tool blissfully until whoever yuck embossing truthfully plait", "label": "<value>", "created_at": "2024-10-01T14:42:15.214Z", "state": {"code": "<value>", "reason": "<value>", "healthy": true}, "entity_type": "mesh"}, "child": {"identifier": "d2078d37-0126-4132-9fda-3ed5a5b27c1e", "urn": "<value>", "name": "<value>", "is_system": false, "description": "except masterpiece bah offensively impartial", "label": "<value>", "created_at": "2023-07-17T09:26:40.794Z", "state": {"code": "<value>", "reason": "<value>", "healthy": true}, "entity_type": "mesh"}}
+        "422":
+          application/json: {}
+  delete_entity_link_api_data_link_data_source_data_object_delete:
+    speakeasy-default-delete-entity-link-api-data-link-data-source-data-object-delete:
+      parameters:
+        query:
+          identifier: "f9e15880-5ab5-43fc-92ea-628f8fcbdb80"
+          child_identifier: "c7dcf2c2-7789-47d4-b816-bf074ec2599f"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+  get_links_api_data_link_get:
+    speakeasy-default-get-links-api-data-link-get:
+      parameters:
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"links": []}
+        "422":
+          application/json: {}
+  get_entities_api_data_data_object_list_get:
+    speakeasy-default-get-entities-api-data-data-object-list-get:
+      parameters:
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"entities": [{"identifier": "9bb25e68-9d72-4084-a1b3-c9b7b4ae610e", "urn": "<value>", "name": "<value>", "is_system": false, "description": "before major in er", "label": "<value>", "created_at": "2025-01-16T12:17:21.530Z", "state": {"code": "<value>", "reason": "<value>", "healthy": false}}]}
+        "422":
+          application/json: {}
+  get_entity_api_data_data_object_get:
+    speakeasy-default-get-entity-api-data-data-object-get:
+      parameters:
+        query:
+          identifier: "a97f46ff-798b-4317-b117-254552086fd3"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"entity": {"identifier": "296568c8-5594-4b2b-a4a0-4d47b89ec08c", "urn": "<value>", "name": "<value>", "is_system": false, "description": "boo with through under keenly easily scale truthfully obvious", "label": "<value>", "created_at": "2025-04-16T18:46:21.670Z", "state": {"code": "<value>", "reason": "<value>", "healthy": false}}, "links": {"parents": [], "children": [{"identifier": "d01164db-bc14-46f4-8e17-09e86f85d655", "urn": "<value>", "name": "<value>", "is_system": false, "description": "near prejudge sundae without fat yet except eek casket", "label": "<value>", "created_at": "2024-02-22T16:06:10.621Z", "state": {"code": "<value>", "reason": "<value>", "healthy": false}, "entity_type": "data_product"}]}, "schema_available": true, "tags": ["<value 1>"]}
+        "422":
+          application/json: {}
+  update_entity_api_data_data_object_put:
+    basic:
+      parameters:
+        query:
+          identifier: "79108717-b17c-4171-9b23-6f5adb10bc8e"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"entity": {"name": "Data object example", "entity_type": "data_object", "label": "DUU", "description": "This data object was updated."}}
+      responses:
+        "200":
+          application/json: {"identifier": "d1f8e017-ac03-4e2b-8666-a205d6e74bb2", "urn": "<value>", "name": "<value>", "is_system": false, "description": "until quizzically provided underneath after pick nearly ack", "label": "<value>", "created_at": "2025-01-01T22:57:52.156Z", "state": {"code": "<value>", "reason": "<value>", "healthy": false}}
+        "422":
+          application/json: {}
+  create_entity_api_data_data_object_post:
+    basic:
+      parameters:
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"entity": {"name": "Data object example", "entity_type": "data_object", "label": "DUE", "description": "This is an example for data object"}, "entity_info": {"owner": "owner@example.com", "contact_ids": ["Data object contact"], "links": ["example.com"]}}
+      responses:
+        "200":
+          application/json: {"entity": {"identifier": "c905e2e7-cd50-4a5f-b8e2-965f429e2a10", "urn": "<value>", "name": "<value>", "is_system": false, "description": "ew psst hot", "label": "<value>", "created_at": "2023-12-03T14:48:22.149Z", "state": {"code": "<value>", "reason": "<value>", "healthy": true}}, "links": {"parents": [{"identifier": "7d4f02a6-93ad-4876-b4b4-7d272a393dcc", "urn": "<value>", "name": "<value>", "is_system": false, "description": "quirkily amidst hmph er playfully redress", "label": "<value>", "created_at": "2023-07-21T05:49:42.980Z", "state": {"code": "<value>", "reason": "<value>", "healthy": true}, "entity_type": "data_object"}], "children": []}, "schema_available": false, "tags": ["<value 1>", "<value 2>", "<value 3>"]}
+        "422":
+          application/json: {}
+  delete_entity_api_data_data_object_delete:
+    speakeasy-default-delete-entity-api-data-data-object-delete:
+      parameters:
+        query:
+          identifier: "acb242be-5582-43bd-be31-febca862be78"
+          force: false
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+  get_entity_links_api_data_data_object_link_get:
+    speakeasy-default-get-entity-links-api-data-data-object-link-get:
+      parameters:
+        query:
+          identifier: "52490f53-0842-44af-a464-5016fe9c32fc"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"parents": [], "children": [{"identifier": "ff116ee3-3ff9-42a6-a0f1-3d52cef2bc05", "urn": "<value>", "name": "<value>", "is_system": false, "description": "why abaft deplore tinderbox obnoxiously hence since zen cultivated", "label": "<value>", "created_at": "2024-06-29T13:32:23.259Z", "state": {"code": "<value>", "reason": "<value>", "healthy": true}, "entity_type": "data_object"}]}
+        "422":
+          application/json: {}
+  get_entity_info_api_data_data_object_info_get:
+    speakeasy-default-get-entity-info-api-data-data-object-info-get:
+      parameters:
+        query:
+          identifier: "5c50340b-0e2a-4aaf-8826-81ce2487ff39"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"owner": "<value>", "contact_ids": ["<value 1>", "<value 2>"], "links": ["<value 1>", "<value 2>"]}
+        "422":
+          application/json: {}
+  update_entity_info_api_data_data_object_info_put:
+    speakeasy-default-update-entity-info-api-data-data-object-info-put:
+      parameters:
+        query:
+          identifier: "82ba5248-a2a9-44b4-88d9-c01913d3c0bc"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"owner": "<value>", "contact_ids": ["<value 1>"], "links": ["<value 1>"]}
+      responses:
+        "200":
+          application/json: {"owner": "<value>", "contact_ids": [], "links": ["<value 1>", "<value 2>", "<value 3>"]}
+        "422":
+          application/json: {}
+  get_entity_metadata_api_data_data_object_metadata_get:
+    speakeasy-default-get-entity-metadata-api-data-data-object-metadata-get:
+      parameters:
+        query:
+          identifier: "aa5ea247-ea79-44a6-9845-ae6461a6bc4e"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+  update_entity_metadata_api_data_data_object_metadata_put:
+    entity_level:
+      parameters:
+        query:
+          identifier: "3a4e3c6c-10dc-4176-9792-fa9781568f30"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"fields": {}, "tags": ["public"]}
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+    field_level:
+      parameters:
+        query:
+          identifier: "93b0d408-526e-411b-b02d-ce589c97563e"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"fields": {"foo": {"tags": ["secret"], "description": "Hide this field", "primary": false, "optional": false}}, "tags": []}
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+    both_level:
+      parameters:
+        query:
+          identifier: "342ed54a-2c38-40dd-b7c7-a34055584fff"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"fields": {"foo": {"tags": ["secret"], "description": "Hide this field", "primary": false, "optional": false}}, "tags": ["public"]}
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+  add_entity_metadata_api_data_data_object_metadata_post:
+    entity_level:
+      parameters:
+        query:
+          identifier: "23415e20-801e-48c2-9d8e-e571da99256f"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"fields": {}, "tags": ["public"]}
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+    field_level:
+      parameters:
+        query:
+          identifier: "816e3dfe-8fdc-4960-a535-7d75604a43f1"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"fields": {"foo": {"tags": ["secret"], "description": "Hide this field", "primary": false, "optional": false}}, "tags": []}
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+    both_level:
+      parameters:
+        query:
+          identifier: "2f8cb1d3-362b-4813-914d-67c8604409db"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"fields": {"foo": {"tags": ["secret"], "description": "Hide this field", "primary": false, "optional": false}}, "tags": ["public"]}
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+  remove_entity_metadata_api_data_data_object_metadata_delete:
+    entity_level:
+      parameters:
+        query:
+          identifier: "09bad69a-8bef-411b-8ab4-95c043514195"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"fields": {}, "tags": ["public"]}
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+    field_level:
+      parameters:
+        query:
+          identifier: "30354af2-48c8-43a5-bd5a-d8a503a57ab0"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"fields": {"foo": {"tags": ["secret"], "primary": false, "optional": false}}, "tags": []}
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+    both_level:
+      parameters:
+        query:
+          identifier: "de4109c2-1686-4e72-b82c-e47e4b49d481"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"fields": {"foo": {"tags": ["secret"], "primary": false, "optional": false}}, "tags": ["public"]}
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+  get_data_object_configuration_api_data_data_object_config_get:
+    speakeasy-default-get-data-object-configuration-api-data-data-object-config-get:
+      parameters:
+        query:
+          identifier: "a2e9fab5-b166-4ef6-bec4-e5431dbfc411"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+  update_data_object_configuration_api_data_data_object_config_put:
+    csv_params:
+      parameters:
+        query:
+          identifier: "f4afe43c-6213-4b0a-ac22-8b044c4695cc"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"configuration": {"data_object_type": "csv", "path": "/bucket_name/filename.csv", "has_header": true, "delimiter": ","}}
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+    table_params:
+      parameters:
+        query:
+          identifier: "76c682f6-9367-45aa-839a-a7e9778027c8"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"configuration": {"data_object_type": "table", "table": "table_name"}}
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+    query_params:
+      parameters:
+        query:
+          identifier: "2f8469d0-9c67-447a-85d7-be3dd2b666cc"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"configuration": {"data_object_type": "query", "query": "select * from test_name where year < 2000"}}
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+    parquet_params:
+      parameters:
+        query:
+          identifier: "b8bdbf8c-1041-4699-bcc0-e8a44c8c545f"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"configuration": {"data_object_type": "parquet", "mode": "overwrite"}}
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+  get_schema_api_data_data_object_schema_get:
+    speakeasy-default-get-schema-api-data-data-object-schema-get:
+      parameters:
+        query:
+          identifier: "be299a52-77ea-4050-aaac-2304d7ca5835"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"fields": [{"name": "<value>", "primary": false, "optional": false, "data_type": {"meta": {}, "column_type": "BOOLEAN"}, "tags": ["<value 1>"]}]}
+        "422":
+          application/json: {}
+  update_schema_api_data_data_object_schema_put:
+    basic:
+      parameters:
+        query:
+          identifier: "1032e714-ba20-4e2e-897c-04af658b6f95"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"details": {"fields": [{"name": "foo", "primary": true, "optional": false, "data_type": {"meta": {}, "column_type": "VARCHAR"}}, {"name": "year", "primary": true, "optional": false, "data_type": {"meta": {}, "column_type": "INTEGER"}}]}}
+      responses:
+        "200":
+          application/json: {"fields": [{"name": "<value>", "primary": false, "optional": false, "data_type": {"meta": {"key": "<value>", "key1": "<value>", "key2": "<value>"}, "column_type": "DECIMAL"}, "tags": []}]}
+        "422":
+          application/json: {}
+  get_entities_api_data_data_source_list_get:
+    speakeasy-default-get-entities-api-data-data-source-list-get:
+      parameters:
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"entities": []}
+        "422":
+          application/json: {}
+  get_entity_api_data_data_source_get:
+    speakeasy-default-get-entity-api-data-data-source-get:
+      parameters:
+        query:
+          identifier: "87c05ae3-810a-4d8e-9654-9a0f048aaebe"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"entity": {"identifier": "ffcdb0d4-0611-42f0-9994-29aca62a8b57", "urn": "<value>", "name": "<value>", "is_system": false, "description": "oh evenly foolishly", "label": "<value>", "created_at": "2025-08-21T07:04:56.069Z", "state": {"code": "<value>", "reason": "<value>", "healthy": true}}, "links": {"parents": [], "children": [{"identifier": "1c611d95-78a4-4493-8dee-5d84e5f7bc1d", "urn": "<value>", "name": "<value>", "is_system": false, "description": "whenever early smoothly worriedly connect", "label": "<value>", "created_at": "2024-06-15T04:21:05.823Z", "state": {"code": "<value>", "reason": "<value>", "healthy": true}, "entity_type": "application"}]}}
+        "422":
+          application/json: {}
+  update_entity_api_data_data_source_put:
+    basic:
+      parameters:
+        query:
+          identifier: "e195f387-f4dd-4df2-886b-3237a49c440b"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"entity": {"name": "DataSource example", "entity_type": "data_source", "label": "DSU", "description": "This data source was updated."}}
+      responses:
+        "200":
+          application/json: {"identifier": "fd590098-fbf0-4ada-90a9-63d62bc9e12b", "urn": "<value>", "name": "<value>", "is_system": false, "description": "gee as unless when unfit joy colorfully while", "label": "<value>", "created_at": "2023-09-15T03:45:43.760Z", "state": {"code": "<value>", "reason": "<value>", "healthy": false}}
+        "422":
+          application/json: {}
+  create_entity_api_data_data_source_post:
+    basic:
+      parameters:
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"entity": {"name": "DataSource example", "entity_type": "data_source", "label": "DSE", "description": "This is an example for data source"}, "entity_info": {"owner": "owner@example.com", "contact_ids": ["DataSource contact"], "links": ["example.com"]}}
+      responses:
+        "200":
+          application/json: {"entity": {"identifier": "43bad8d5-dc43-4218-9fc9-2a785d2aca3a", "urn": "<value>", "name": "<value>", "is_system": false, "description": "when pish validity happily while gosh times unlike inculcate where", "label": "<value>", "created_at": "2025-02-07T21:24:46.686Z", "state": {"code": "<value>", "reason": "<value>", "healthy": true}}, "links": {"parents": [], "children": [{"identifier": "247f4ad3-5ebb-4d12-ad58-a44366901866", "urn": "<value>", "name": "<value>", "is_system": false, "description": "rapidly owlishly mmm", "label": "<value>", "created_at": "2023-06-24T21:15:08.306Z", "state": {"code": "<value>", "reason": "<value>", "healthy": true}, "entity_type": "mesh"}]}}
+        "422":
+          application/json: {}
+  delete_entity_api_data_data_source_delete:
+    speakeasy-default-delete-entity-api-data-data-source-delete:
+      parameters:
+        query:
+          identifier: "fb4c5642-98d5-4162-89a4-254fb36ddbb0"
+          force: false
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+  get_entity_links_api_data_data_source_link_get:
+    speakeasy-default-get-entity-links-api-data-data-source-link-get:
+      parameters:
+        query:
+          identifier: "6dd78999-775b-4724-8fe7-d91ada0df1de"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"parents": [], "children": []}
+        "422":
+          application/json: {}
+  get_entity_info_api_data_data_source_info_get:
+    speakeasy-default-get-entity-info-api-data-data-source-info-get:
+      parameters:
+        query:
+          identifier: "b818d616-7c81-49e5-b171-6ade9e83afc7"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"owner": "<value>", "contact_ids": ["<value 1>", "<value 2>"], "links": ["<value 1>", "<value 2>"]}
+        "422":
+          application/json: {}
+  update_entity_info_api_data_data_source_info_put:
+    speakeasy-default-update-entity-info-api-data-data-source-info-put:
+      parameters:
+        query:
+          identifier: "a5f225ae-98a8-481c-8fca-9194d727006a"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"owner": "<value>", "contact_ids": [], "links": ["<value 1>", "<value 2>", "<value 3>"]}
+      responses:
+        "200":
+          application/json: {"owner": "<value>", "contact_ids": ["<value 1>", "<value 2>", "<value 3>"], "links": ["<value 1>", "<value 2>", "<value 3>"]}
+        "422":
+          application/json: {}
+  get_data_source_connection_api_data_data_source_connection_get:
+    speakeasy-default-get-data-source-connection-api-data-data-source-connection-get:
+      parameters:
+        query:
+          identifier: "c13fd1e1-a8c4-4b9a-a3d6-dc0cf5c033e8"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+  update_data_source_connection_api_data_data_source_connection_put:
+    s3:
+      parameters:
+        query:
+          identifier: "4f27ff06-52e1-41c4-9b2f-0d61024ac925"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"connection": {"connection_type": "s3", "url": "http://minio.fndtn-core-minio.svc.cluster.local", "access_key": {"env_key": "MY_S3_ACCESS"}, "access_secret": {"env_key": "MY_S3_SECRET"}}}
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+    postgres:
+      parameters:
+        query:
+          identifier: "bd936330-b37d-40cf-b9da-bb512bd878bd"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"connection": {"connection_type": "database", "engine": "postgresql", "host": "core-storage-postgres-postgresql.core-storage.svc.cluster.local", "port": 5432, "schema": "public", "database": "fndtn", "user": {"env_key": "MY_POSTGRES_USER"}, "password": {"env_key": "MY_POSTGRES_PASSWORD"}}}
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+  update_data_source_secret_api_data_data_source_secret_put:
+    s3_secrets:
+      parameters:
+        query:
+          identifier: "aa3bd995-916f-43f1-bad5-ddedf9c41a30"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"MY_S3_ACCESS": "minio", "MY_S3_SECRET": "minio123"}
+      responses:
+        "200":
+          application/json: {"secrets": [{"key": "<key>", "value": "<value>"}]}
+        "422":
+          application/json: {}
+    postgres_secrets:
+      parameters:
+        query:
+          identifier: "42f4e504-0e28-430a-883d-44ef76e64611"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"MY_POSTGRES_USER": "fndtn", "MY_POSTGRES_PASSWORD": "fndtn"}
+      responses:
+        "200":
+          application/json: {"secrets": [{"key": "<key>", "value": "<value>"}]}
+        "422":
+          application/json: {}
+  add_data_source_secret_api_data_data_source_secret_post:
+    s3_secrets:
+      parameters:
+        query:
+          identifier: "8373ca63-1e47-426e-a651-c44dfffd644a"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"MY_S3_ACCESS": "minio", "MY_S3_SECRET": "minio123"}
+      responses:
+        "200":
+          application/json: {"secrets": []}
+        "422":
+          application/json: {}
+    postgres_secrets:
+      parameters:
+        query:
+          identifier: "4ad4f281-9925-425c-8a44-db974c94a347"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"MY_POSTGRES_USER": "fndtn", "MY_POSTGRES_PASSWORD": "fndtn"}
+      responses:
+        "200":
+          application/json: {"secrets": []}
+        "422":
+          application/json: {}
+  get_entities_api_data_mesh_list_get:
+    speakeasy-default-get-entities-api-data-mesh-list-get:
+      parameters:
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"entities": [{"identifier": "a5ae4592-9b58-425e-a1d4-fa1328b5cde8", "urn": "<value>", "name": "<value>", "is_system": false, "description": "provided yuck uh-huh", "label": "<value>", "created_at": "2023-02-09T04:22:54.773Z", "state": {"code": "<value>", "reason": "<value>", "healthy": false}, "purpose": "<value>", "assignees": [{"email": "Elda_Sanford56@yahoo.com", "role": "<value>"}], "security_policy": ["<value 1>", "<value 2>", "<value 3>"], "is_pinned": false}]}
+        "422":
+          application/json: {}
+  get_mesh_landscape_api_data_mesh_landscape_get:
+    speakeasy-default-get-mesh-landscape-api-data-mesh-landscape-get:
+      parameters:
+        query:
+          identifier: "0cd6a726-c2d4-4fe1-9529-73cebc60118f"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: [{"parent": {"identifier": "55d58ad7-5e33-43aa-813d-6a816e9af8da", "urn": "<value>", "name": "<value>", "is_system": false, "description": "fondly from cleverly mmm wildly seafood opposite hutch", "label": "<value>", "created_at": "2023-07-31T09:41:29.566Z", "state": {"code": "<value>", "reason": "<value>", "healthy": false}, "entity_type": "data_source"}, "child": {"identifier": "e04b23ca-dec0-4b67-b0e1-ba2cd5928023", "urn": "<value>", "name": "<value>", "is_system": false, "description": "fooey questionably wry stool gleefully gosh boohoo", "label": "<value>", "created_at": "2025-02-17T12:06:43.796Z", "state": {"code": "<value>", "reason": "<value>", "healthy": false}, "entity_type": "data_product"}}]
+        "422":
+          application/json: {}
+  get_data_products_ids_in_mesh_api_data_mesh_data_products_get:
+    speakeasy-default-get-data-products-ids-in-mesh-api-data-mesh-data-products-get:
+      parameters:
+        query:
+          identifier: "366055df-991d-4be8-a7e2-b3e9bd6774f2"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"identifiers": ["1bd75fd6-a8a3-4119-b82c-6652c244d8bc", "116e3611-dc1b-47b4-82e1-6573f5f239be", "8e6223f5-589b-413b-a209-b4c7ff7be163"]}
+        "422":
+          application/json: {}
+  get_entity_api_data_mesh_get:
+    speakeasy-default-get-entity-api-data-mesh-get:
+      parameters:
+        query:
+          identifier: "20baf810-bf31-4fcd-a035-6c39ea843147"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"entity": {"identifier": "fea32d25-1b85-4f52-8fcc-4c97d5762fce", "urn": "<value>", "name": "<value>", "is_system": false, "description": "as halt easily off soggy igloo because premeditation dark", "label": "<value>", "created_at": "2025-08-15T21:05:37.416Z", "state": {"code": "<value>", "reason": "<value>", "healthy": true}, "purpose": "<value>", "assignees": [{"email": "Lucienne_Sawayn-Wehner29@hotmail.com", "role": "<value>"}], "security_policy": [], "is_pinned": false}, "links": {"parents": [{"identifier": "ddd73a84-3001-4b5a-b12d-69d1531c1f61", "urn": "<value>", "name": "<value>", "is_system": false, "description": "bowling pfft insistent unlike terribly ownership how conclude construe briefly", "label": "<value>", "created_at": "2023-05-11T01:50:21.213Z", "state": {"code": "<value>", "reason": "<value>", "healthy": true}, "entity_type": "data_system"}], "children": []}}
+        "422":
+          application/json: {}
+  update_entity_api_data_mesh_put:
+    basic:
+      parameters:
+        query:
+          identifier: "4aea3c93-a6ee-4fbb-99eb-2b28698d1f88"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"entity": {"name": "Mesh example", "entity_type": "mesh", "label": "DME", "description": "This is an example for mesh", "purpose": "Mesh purpose", "assignees": [{"email": "assignee1@meshx.com", "full_name": "Assignee 1", "role": "Sr Janitor"}], "security_policy": []}}
+      responses:
+        "200":
+          application/json: {"entity": {"id": 779796, "identifier": "55e14e1e-f09b-4753-9d20-ca09d36c4cc2", "organization_id": 390940, "urn": "<value>", "name": "<value>", "sanitized_name": "<value>", "is_system": false, "label": "<value>", "description": "that brace crooked", "created_at": "2024-01-13T13:12:05.460Z", "state": {"code": "<value>", "reason": "<value>", "healthy": false}, "purpose": "<value>", "assignees": [{"email": "Vance_Langosh@yahoo.com", "role": "<value>"}], "security_policy": ["<value 1>", "<value 2>"], "is_pinned": false}, "links": {"parents": [{"identifier": "aa85b56f-0d03-4446-b3f5-1ab01ea1dd10", "urn": "<value>", "name": "<value>", "is_system": false, "description": "incidentally near unique faraway daily beautifully", "label": "<value>", "created_at": "2025-06-26T12:57:46.751Z", "state": {"code": "<value>", "reason": "<value>", "healthy": false}, "entity_type": "data_source"}], "children": [{"identifier": "cf6e60fd-3e0d-4cb7-a85c-4b2b24ef0a2f", "urn": "<value>", "name": "<value>", "is_system": false, "description": "uh-huh consequently essay satirize quick dash etch", "label": "<value>", "created_at": "2024-12-16T02:36:21.905Z", "state": {"code": "<value>", "reason": "<value>", "healthy": false}, "entity_type": "data_object"}]}}
+        "422":
+          application/json: {}
+  create_entity_api_data_mesh_post:
+    basic:
+      parameters:
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"entity": {"name": "Mesh example", "entity_type": "mesh", "label": "DME", "description": "This is an example for mesh", "purpose": "Mesh Purpose", "assignees": [{"email": "assignee1@meshx.com", "full_name": "Assignee 1", "role": "Sr Janitor"}], "security_policy": ["statement_1"]}, "entity_info": {"owner": "owner@example.com", "contact_ids": ["contact_id"], "links": []}}
+      responses:
+        "200":
+          application/json: {"entity": {"id": 600979, "identifier": "bc7f9087-a35c-4b5e-b646-b522629e049e", "organization_id": 377855, "urn": "<value>", "name": "<value>", "sanitized_name": "<value>", "is_system": false, "label": "<value>", "description": "heavily first with until duster railway jet into defendant", "created_at": "2023-01-13T22:42:57.594Z", "state": {"code": "<value>", "reason": "<value>", "healthy": true}, "purpose": "<value>", "assignees": [], "security_policy": [], "is_pinned": false}, "links": {"parents": [], "children": [{"identifier": "113bd9f4-8a6d-4814-b288-03aaa4ae33a9", "urn": "<value>", "name": "<value>", "is_system": false, "description": "certainly forager snarling psst", "label": "<value>", "created_at": "2023-12-27T13:57:23.125Z", "state": {"code": "<value>", "reason": "<value>", "healthy": true}, "entity_type": "data_source"}]}}
+        "422":
+          application/json: {}
+  delete_entity_api_data_mesh_delete:
+    speakeasy-default-delete-entity-api-data-mesh-delete:
+      parameters:
+        query:
+          identifier: "d405869b-a9c6-4afe-98e7-6da615c1c344"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+  update_mesh_pin_api_data_mesh_pin_put:
+    basic:
+      parameters:
+        query:
+          identifier: "cb8c8bbc-7418-46f0-beca-7b13fc39426d"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"is_pinned": true}
+      responses:
+        "200":
+          application/json: {"is_pinned": true}
+        "422":
+          application/json: {}
+  search_entities_api_data_search_get:
+    speakeasy-default-search-entities-api-data-search-get:
+      parameters:
+        query:
+          limit: 50
+          offset: 0
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"count": 167061, "results": []}
+        "422":
+          application/json: {}
+  get_status_api_data_compute_get:
+    speakeasy-default-get-status-api-data-compute-get:
+      parameters:
+        query:
+          identifier: "4d7e91fc-cb9b-4a44-8aca-e44bf20b3f9c"
+          suffix: "latest"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"identifier": "d380cdd9-2397-44c4-abac-d250acfbeaf0", "urn": "<value>", "name": "<value>", "is_system": false, "status": {"run_type": "schedule", "schedule_state": "<value>"}}
+        "422":
+          application/json: {}
+  get_logs_api_data_compute_log_get:
+    speakeasy-default-get-logs-api-data-compute-log-get:
+      parameters:
+        query:
+          identifier: "fbb859e0-9fb0-4742-9aaa-254b6b9c0e80"
+          suffix: "latest"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"logs": ["<value 1>", "<value 2>", "<value 3>"]}
+        "422":
+          application/json: {}
+  get_job_history_api_data_compute_history_get:
+    speakeasy-default-get-job-history-api-data-compute-history-get:
+      parameters:
+        query:
+          identifier: "82420ee9-0384-4c82-a8c8-d4131cd8fbb7"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"jobs": []}
+        "422":
+          application/json: {}
+  get_run_history_api_data_compute_history_run_get:
+    speakeasy-default-get-run-history-api-data-compute-history-run-get:
+      parameters:
+        query:
+          identifier: "79162194-7818-4ef6-bfea-7009450dc9e5"
+          suffix: "latest"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"runs": []}
+        "422":
+          application/json: {}
+  get_sensitivities_api_data_sensitivity_list_get:
+    speakeasy-default-get-sensitivities-api-data-sensitivity-list-get:
+      parameters:
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"sensitivities": []}
+        "422":
+          application/json: {}
+  get_sensitivity_by_name_api_data_sensitivity_name_get:
+    speakeasy-default-get-sensitivity-by-name-api-data-sensitivity-name-get:
+      parameters:
+        query:
+          name: "<value>"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"id": 948855, "name": "<value>", "system_defined": false, "created_at": "2025-06-18T10:37:41.586Z", "updated_at": "2024-06-27T09:00:48.597Z"}
+        "422":
+          application/json: {}
+  update_sensitivity_by_name_api_data_sensitivity_name_put:
+    speakeasy-default-update-sensitivity-by-name-api-data-sensitivity-name-put:
+      parameters:
+        query:
+          name: "<value>"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"new_name": "<value>"}
+      responses:
+        "200":
+          application/json: {"id": 873192, "name": "<value>", "system_defined": true, "created_at": "2025-12-27T22:01:05.571Z", "updated_at": "2024-02-19T01:36:06.176Z"}
+        "422":
+          application/json: {}
+  delete_sensitivity_by_name_api_data_sensitivity_name_delete:
+    speakeasy-default-delete-sensitivity-by-name-api-data-sensitivity-name-delete:
+      parameters:
+        query:
+          name: "<value>"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"message": "<value>"}
+        "422":
+          application/json: {}
+  get_sensitivity_api_data_sensitivity_get:
+    speakeasy-default-get-sensitivity-api-data-sensitivity-get:
+      parameters:
+        query:
+          sensitivity_id: 211370
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"id": 513315, "name": "<value>", "system_defined": false, "created_at": "2023-03-08T00:33:29.914Z", "updated_at": "2025-08-20T08:39:08.086Z"}
+        "422":
+          application/json: {}
+  update_sensitivity_api_data_sensitivity_put:
+    speakeasy-default-update-sensitivity-api-data-sensitivity-put:
+      parameters:
+        query:
+          sensitivity_id: 745977
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"new_name": "<value>"}
+      responses:
+        "200":
+          application/json: {"id": 578009, "name": "<value>", "system_defined": true, "created_at": "2023-11-25T23:22:31.015Z", "updated_at": "2024-12-29T18:17:27.026Z"}
+        "422":
+          application/json: {}
+  create_sensitivity_api_data_sensitivity_post:
+    speakeasy-default-create-sensitivity-api-data-sensitivity-post:
+      parameters:
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"name": "<value>"}
+      responses:
+        "201":
+          application/json: {"id": 894294, "name": "<value>", "system_defined": false, "created_at": "2023-03-16T14:55:17.745Z", "updated_at": "2024-02-03T17:17:12.761Z"}
+        "422":
+          application/json: {}
+  delete_sensitivity_api_data_sensitivity_delete:
+    speakeasy-default-delete-sensitivity-api-data-sensitivity-delete:
+      parameters:
+        query:
+          sensitivity_id: 651686
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"message": "<value>"}
+        "422":
+          application/json: {}
+  get_tags_api_data_tag_get:
+    speakeasy-default-get-tags-api-data-tag-get:
+      parameters:
+        query:
+          system_defined: false
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"tags": [{"tag": "<value>", "system_defined": false}]}
+        "422":
+          application/json: {}
+  add_tag_api_data_tag_post:
+    tag:
+      parameters:
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"tag": "example_tag"}
+      responses:
+        "200":
+          application/json: {"tag": "<value>", "system_defined": false}
+        "422":
+          application/json: {}
+  remove_tag_api_data_tag_delete:
+    tag:
+      parameters:
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"tag": "example_tag"}
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+  get_orchestrator_workflow_api_data_orchestrator_workflow_get:
+    speakeasy-default-get-orchestrator-workflow-api-data-orchestrator-workflow-get:
+      parameters:
+        query:
+          identifier: "6181b9e0-ecb3-4558-90d6-b344cca20eff"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"identifier": "50299218-d231-4709-a908-2c4a3ec8136a", "data_product_identifier": "392629ce-669f-4bde-90a4-ed27799217e9", "name": "<value>", "run_type": "<value>", "config": {}, "status": "<value>", "created_by": "<value>", "created_at": "2023-11-30T08:08:47.568Z", "updated_at": "2024-11-17T06:54:01.649Z", "started_at": "2024-08-08T06:35:38.432Z", "completed_at": "2023-12-29T06:47:55.338Z", "error_message": "<value>"}
+        "422":
+          application/json: {}
+  update_orchestrator_workflow_api_data_orchestrator_workflow_put:
+    speakeasy-default-update-orchestrator-workflow-api-data-orchestrator-workflow-put:
+      parameters:
+        query:
+          identifier: "aa9ad98b-2134-416e-951c-4b610729e7df"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"status": "<value>", "config": {"key": "<value>", "key1": "<value>"}, "error_message": "<value>", "updated_at": "2023-01-14T19:36:15.248Z", "completed_at": "2024-11-17T02:40:47.824Z"}
+      responses:
+        "200":
+          application/json: {"identifier": "e391e4c3-8e30-411b-b526-44975aee41ce", "data_product_identifier": "6cfc09bf-b540-463b-8c85-81b46f4f56b4", "name": "<value>", "run_type": "<value>", "config": {"key": "<value>", "key1": "<value>"}, "status": "<value>", "created_by": "<value>", "created_at": "2025-11-03T14:11:06.051Z", "updated_at": "2024-01-25T10:27:01.538Z", "started_at": "2025-08-05T21:28:39.244Z", "completed_at": "2024-08-20T15:19:12.029Z", "error_message": "<value>"}
+        "422":
+          application/json: {}
+  create_orchestrator_workflow_api_data_orchestrator_workflow_post:
+    speakeasy-default-create-orchestrator-workflow-api-data-orchestrator-workflow-post:
+      parameters:
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"run_type": "<value>", "data_product_identifier": "07b91ab7-c0a3-409d-8d1b-f10216958d54", "created_by": "<value>", "name": "<value>"}
+      responses:
+        "200":
+          application/json: {"identifier": "bee3724c-8d4f-4783-b9e4-30a312fc315d", "data_product_identifier": "4f83d38e-d8e7-4c56-8d32-114f297baf91", "name": "<value>", "run_type": "<value>", "config": {"key": "<value>"}, "status": "<value>", "created_by": "<value>", "created_at": "2025-06-22T09:30:54.804Z", "updated_at": null, "started_at": "2025-03-03T12:37:51.078Z", "completed_at": "2024-02-26T07:50:05.700Z", "error_message": "<value>"}
+        "422":
+          application/json: {}
+  delete_orchestrator_workflow_api_data_orchestrator_workflow_delete:
+    speakeasy-default-delete-orchestrator-workflow-api-data-orchestrator-workflow-delete:
+      parameters:
+        query:
+          identifier: "dd1ec33b-4e49-4786-847e-a9067ea2d63a"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"identifier": "6b7ced5b-2a5b-4f0a-ae42-93af9610d10a", "data_product_identifier": "4f59a7fa-4778-47ab-8a4d-bac46a91942c", "name": "<value>", "run_type": "<value>", "config": {"key": "<value>"}, "status": "<value>", "created_by": "<value>", "created_at": "2024-03-30T07:19:14.974Z", "updated_at": "2024-12-08T05:06:53.433Z", "started_at": "2023-05-11T14:46:34.571Z", "completed_at": "2023-08-08T18:55:48.063Z", "error_message": "<value>"}
+        "422":
+          application/json: {}
+  get_orchestrator_workflow_graph_api_data_orchestrator_workflow_graph_get:
+    speakeasy-default-get-orchestrator-workflow-graph-api-data-orchestrator-workflow-graph-get:
+      parameters:
+        query:
+          identifier: "70566f26-d898-4580-a0c7-02d4945d0532"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"key": "<value>"}
+        "422":
+          application/json: {}
+  list_workflows_api_data_orchestrator_workflow_list_get:
+    speakeasy-default-list-workflows-api-data-orchestrator-workflow-list-get:
+      parameters:
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"orchestrator_workflows": []}
+        "422":
+          application/json: {}
+  update_organization_api_iam_organization_put:
+    speakeasy-default-update-organization-api-iam-organization-put:
+      parameters:
+        query:
+          identifier: "1879fb3d-c50a-4d83-a7c3-7e4b3bc7af08"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"display_name": "Scot_Nader-Hand", "description": "finding fake hmph reiterate beret untidy oof woot", "owner": "<value>"}
+      responses:
+        "200":
+          application/json: {"identifier": "8c709146-dbb2-4e7a-8c16-65a934aa7511", "urn": "<value>", "name": "<value>", "display_name": "Anna_Wiza", "description": "taxicab gosh dusk", "owner": "<value>", "is_system": false}
+        "422":
+          application/json: {}
+  create_organization_api_iam_organization_post:
+    speakeasy-default-create-organization-api-iam-organization-post:
+      parameters:
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"name": "<value>", "display_name": "Leanna_Becker", "description": "ultimately readies wobbly fatal rim huzzah next", "owner": "<value>"}
+      responses:
+        "200":
+          application/json: {"identifier": "7bda0a77-c108-4089-9df5-d87c0a880c24", "urn": "<value>", "name": "<value>", "display_name": "Issac20", "description": "joyous potentially consequently intellect scaffold eek", "owner": "<value>", "is_system": false}
+        "422":
+          application/json: {}
+  delete_organization_api_iam_organization_delete:
+    speakeasy-default-delete-organization-api-iam-organization-delete:
+      parameters:
+        query:
+          identifier: "e4463736-4097-47b5-8f2c-8ffdd86a2dbe"
+          full: false
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"identifier": "2eedee95-5a9c-4200-9236-5cdf0b8fdd92", "urn": "<value>", "name": "<value>", "display_name": "Jennie_Graham", "description": "unfurl barring during notwithstanding and gadzooks", "owner": "<value>", "is_system": true}
+        "422":
+          application/json: {}
+  get_organizations_api_iam_organization_list_get:
+    speakeasy-default-get-organizations-api-iam-organization-list-get:
+      parameters:
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"organizations": [{"identifier": "426fe447-95d0-4a62-80a8-f13bc288bf03", "urn": "<value>", "name": "<value>", "display_name": "Angelica.Becker", "description": "at quarrelsomely taxicab", "owner": "<value>", "is_system": false}]}
+        "422":
+          application/json: {}
+  login_user_api_iam_login_post:
+    speakeasy-default-login-user-api-iam-login-post:
+      requestBody:
+        application/json: {"user": "Verna.Reilly97", "password": "Rzd0HoeBV74XBC3", "remember_me": false}
+      responses:
+        "200":
+          application/json: {"access_token": "<value>", "refresh_token": "<value>", "expires_in": 68471, "refresh_expires_in": 920696, "scope": "<value>", "token_type": "<value>", "session_state": "<value>"}
+        "422":
+          application/json: {}
+  refresh_token_api_iam_refresh_post:
+    speakeasy-default-refresh-token-api-iam-refresh-post:
+      requestBody:
+        application/json: {"refresh_token": "<value>"}
+      responses:
+        "200":
+          application/json: {"access_token": "<value>", "refresh_token": "<value>", "expires_in": 307992, "refresh_expires_in": 44919, "scope": "<value>", "token_type": "<value>", "session_state": "<value>"}
+        "422":
+          application/json: {}
+  logout_user_api_iam_logout_post:
+    speakeasy-default-logout-user-api-iam-logout-post:
+      requestBody:
+        application/json: {"refresh_token": "<value>"}
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+  reset_password_api_iam_password_reset_post:
+    speakeasy-default-reset-password-api-iam-password-reset-post:
+      parameters:
+        query:
+          username: "Sonia.Bartoletti11"
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+  change_password_api_iam_password_change_post:
+    speakeasy-default-change-password-api-iam-password-change-post:
+      parameters:
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"current_password": "<value>", "new_password": "<value>"}
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+  admin_change_user_password_api_iam_admin_user__user_id__password_post:
+    speakeasy-default-admin-change-user-password-api-iam-admin-user-user-id-password-post:
+      parameters:
+        path:
+          user_id: "<id>"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"new_password": "<value>"}
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+  browse_roles_api_iam_principal_role_list_get:
+    speakeasy-default-browse-roles-api-iam-principal-role-list-get:
+      parameters:
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"roles": []}
+        "422":
+          application/json: {}
+  get_role_api_iam_principal_role_get:
+    speakeasy-default-get-role-api-iam-principal-role-get:
+      parameters:
+        query:
+          identifier: "4cbfca66-e398-4a63-bffa-396a3aaef39b"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"identifier": "49b4104e-efaf-4704-95f3-60d54c14328c", "name": "<value>", "is_system": false, "members": []}
+        "422":
+          application/json: {}
+  update_role_api_iam_principal_role_put:
+    speakeasy-default-update-role-api-iam-principal-role-put:
+      parameters:
+        query:
+          identifier: "9c2c2d78-da1a-4e81-b14d-60645a9f1b34"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"name": "<value>"}
+      responses:
+        "200":
+          application/json: {"identifier": "a3440063-3a3f-45de-bcc2-546b806f6107", "name": "<value>", "is_system": true}
+        "422":
+          application/json: {}
+  create_role_api_iam_principal_role_post:
+    speakeasy-default-create-role-api-iam-principal-role-post:
+      parameters:
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"name": "<value>"}
+      responses:
+        "200":
+          application/json: {"identifier": "e3dc1a92-3d4e-45e4-a576-4727219d1c4f", "name": "<value>", "is_system": false}
+        "422":
+          application/json: {}
+  delete_role_api_iam_principal_role_delete:
+    speakeasy-default-delete-role-api-iam-principal-role-delete:
+      parameters:
+        query:
+          identifier: "2c708434-b8b5-48e2-b473-14b0224da242"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+  add_principals_into_role_api_iam_principal_role_member_post:
+    speakeasy-default-add-principals-into-role-api-iam-principal-role-member-post:
+      parameters:
+        query:
+          identifier: "f8dfd36f-2314-4c5a-aff6-c293f0e4b520"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"principals": ["<value 1>", "<value 2>", "<value 3>"]}
+      responses:
+        "200":
+          application/json: {"identifier": "dbca4342-20a3-4b0a-9b14-3173b43c3be1", "name": "<value>", "is_system": true, "members": ["004d20ce-7232-4831-9e05-b4aec0c64ec5", "562010f7-504e-4e31-929a-26e6bf43a644"]}
+        "422":
+          application/json: {}
+  remove_principals_from_role_api_iam_principal_role_member_delete:
+    speakeasy-default-remove-principals-from-role-api-iam-principal-role-member-delete:
+      parameters:
+        query:
+          identifier: "0976f828-33da-404d-b973-bb75cc738c24"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"principals": ["<value 1>", "<value 2>", "<value 3>"]}
+      responses:
+        "200":
+          application/json: {"identifier": "01617e93-20bf-473b-b390-2d8929c35b36", "name": "<value>", "is_system": false, "members": ["d684a2d3-a39d-4e42-a248-2df054bf7557", "0f9870e3-b5c7-4c17-af4d-0d25197fa48d", "6ce93d7a-e376-4143-981b-faa4f2644509"]}
+        "422":
+          application/json: {}
+  describe_current_user_api_iam_principal_user_get:
+    speakeasy-default-describe-current-user-api-iam-principal-user-get:
+      parameters:
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"user_id": "<id>"}
+        "422":
+          application/json: {}
+  create_user_api_iam_principal_user_post:
+    speakeasy-default-create-user-api-iam-principal-user-post:
+      parameters:
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"username": "Harley_Konopelski61", "first_name": "Dora", "last_name": "Torphy", "email": "Grady93@yahoo.com"}
+      responses:
+        "200":
+          application/json: {"identifier": "bb4fcc83-df9e-47c1-93d0-b18da9cd2290", "urn": "<value>", "first_name": "Danial", "last_name": "Flatley", "email": "Ladarius.Rodriguez@yahoo.com", "username": "Gerson.Reynolds38", "is_system": false, "enabled": true, "is_admin": false, "organization": "<value>"}
+        "422":
+          application/json: {}
+  delete_user_api_iam_principal_user_delete:
+    speakeasy-default-delete-user-api-iam-principal-user-delete:
+      parameters:
+        query:
+          identifier: "2be2ffa2-d2e8-462c-8e2e-b1750e4f512e"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"identifier": "c2a3fecc-d1dc-4ca4-bf6e-6127a3eab4ab", "urn": "<value>", "first_name": "Gino", "last_name": "Rau", "email": "Shanon.Nienow32@hotmail.com", "username": "Chelsea.Dickinson38", "is_system": true, "enabled": false, "is_admin": false}
+        "422":
+          application/json: {}
+  describe_current_user_details_api_iam_principal_user_me_get:
+    speakeasy-default-describe-current-user-details-api-iam-principal-user-me-get:
+      parameters:
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"identifier": "c4f3d63f-04dd-4220-9986-7229c0e1fd3a", "urn": "<value>", "first_name": "Jasmin", "last_name": "Orn", "email": "Allan.McGlynn@gmail.com", "username": "Adrien.Stoltenberg", "is_system": true, "enabled": false, "is_admin": false}
+        "422":
+          application/json: {}
+  purge_user_api_iam_principal_user_purge_delete:
+    speakeasy-default-purge-user-api-iam-principal-user-purge-delete:
+      parameters:
+        query:
+          identifier: "<value>"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+  get_users_api_iam_principal_user_list_get:
+    speakeasy-default-get-users-api-iam-principal-user-list-get:
+      parameters:
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"users": []}
+        "422":
+          application/json: {}
+  create_access_key_pair_api_iam_principal_user_key_pair_post:
+    speakeasy-default-create-access-key-pair-api-iam-principal-user-key-pair-post:
+      parameters:
+        query:
+          identifier: "561d90b1-e5db-4ec5-8cfa-2fd2b1c955fc"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"access_key_id": "<id>", "secret_access_key": "<value>", "is_system": true}
+        "422":
+          application/json: {}
+  delete_access_key_pair_api_iam_principal_user_key_pair_delete:
+    speakeasy-default-delete-access-key-pair-api-iam-principal-user-key-pair-delete:
+      parameters:
+        query:
+          identifier: "d8ff279a-2e8a-42b2-a453-14f1de1ef39d"
+          access_key_id: "<id>"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+  get_role_policy_api_iam_policy_role_get:
+    speakeasy-default-get-role-policy-api-iam-policy-role-get:
+      parameters:
+        query:
+          identifier: "ce72a702-b8a9-4c96-92ee-45d432b62cd7"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"role": "be921ff5-74e7-4a80-8612-81179f010b6e", "policy": {"version": "2022-10-01", "identifier": "4d7e5a9c-a3b1-4b6a-bea3-7100d8942dd7", "name": "<value>", "statements": []}, "is_system": true}
+        "422":
+          application/json: {}
+  create_role_policy_api_iam_policy_role_post:
+    basic:
+      parameters:
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"role": "00000000-0000-0000-0000-000000000000", "policy": "00000000-0000-0000-0000-000000000000"}
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+  delete_role_policy_api_iam_policy_role_delete:
+    speakeasy-default-delete-role-policy-api-iam-policy-role-delete:
+      parameters:
+        query:
+          identifier: "124a5829-9976-4a24-bb4a-83ddede95de9"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+  get_user_policy_api_iam_policy_user_get:
+    speakeasy-default-get-user-policy-api-iam-policy-user-get:
+      parameters:
+        query:
+          identifier: "048f4da5-f5a7-4b3f-9bff-2b5b9e40a558"
+          policy: "59ef372f-1029-4b4b-b680-24be823c8847"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"user": "7afc5c47-2777-47c9-8e45-64358224a801", "policy": {"version": "2022-10-01", "identifier": "18b5dfc9-65d8-4276-b627-841a6d91742d", "name": "<value>", "statements": []}, "is_system": true}
+        "422":
+          application/json: {}
+  create_user_policy_api_iam_policy_user_post:
+    basic:
+      parameters:
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"user": "00000000-0000-0000-0000-000000000000", "policy": "00000000-0000-0000-0000-000000000000"}
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+  delete_user_policy_api_iam_policy_user_delete:
+    speakeasy-default-delete-user-policy-api-iam-policy-user-delete:
+      parameters:
+        query:
+          identifier: "dc9af6bb-283a-4b5f-9919-b2ddb6ca2a0a"
+          policy: "1519ffcf-f7bb-42c8-adab-ddfc75162186"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+  get_all_user_policies_api_iam_policy_user_list_get:
+    speakeasy-default-get-all-user-policies-api-iam-policy-user-list-get:
+      parameters:
+        query:
+          identifier: "a92d0d5b-3434-4be9-895a-17db7ba48738"
+          page: 1
+          page_size: 10
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"user": "3f94d7ec-8089-4323-9f5b-1930fba66fcd", "policies": []}
+        "422":
+          application/json: {}
+  get_policy_api_iam_policy_get:
+    speakeasy-default-get-policy-api-iam-policy-get:
+      parameters:
+        query:
+          identifier: "a577b22c-325d-4d10-8254-d5378811a48a"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"version": "2022-10-01", "identifier": "33f9fcc6-9eb4-43fa-8884-82b66e7b7fdf", "name": "<value>", "statements": []}
+        "422":
+          application/json: {}
+  update_policy_api_iam_policy_put:
+    speakeasy-default-update-policy-api-iam-policy-put:
+      parameters:
+        query:
+          identifier: "08ffc5ce-c8ad-43cd-9c21-d39b64bf0ccd"
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"version": "2022-10-01", "name": "<value>", "statements": [{"sid": "<id>", "action": [], "resource": ["<value 1>", "<value 2>", "<value 3>"], "effect": "allow"}]}
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+  create_policy_api_iam_policy_post:
+    superadmin:
+      parameters:
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"version": "2022-10-01", "name": "SuperAdmin", "statements": [{"sid": "SUPER_ADMIN", "action": ["*"], "resource": ["*"], "condition": [], "effect": "allow"}]}
+      responses:
+        "200":
+          application/json: {"version": "2022-10-01", "identifier": "48935330-7cfd-4590-91d0-3154649ec4b4", "name": "<value>", "statements": [{"sid": "<id>", "action": [], "resource": ["<value 1>", "<value 2>", "<value 3>"], "effect": "allow"}]}
+        "422":
+          application/json: {}
+    iam_admin:
+      parameters:
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"version": "2022-10-01", "name": "IAMAdmin", "statements": [{"sid": "IAM_ADMIN", "action": ["*", "data:mesh:create", "data:mesh:browse", "data:mesh:read", "data:mesh:manage", "data:data_product:create", "data:data_product:browse", "data:data_product:read", "data:data_product.metadata:read", "data:data_product.metadata:create", "data:data_product.metadata:update", "data:data_product.metadata:delete", "data:data_product:manage", "data:data_product:query", "data:data_product:share", "data:orchestrator_workflow:create", "data:orchestrator_workflow:browse", "data:orchestrator_workflow:read", "data:orchestrator_workflow:manage", "data:data_source:create", "data:data_source:browse", "data:data_source:read", "data:data_source:manage", "data:data_object:create", "data:data_object:browse", "data:data_object:read", "data:data_object.metadata:read", "data:data_object.metadata:create", "data:data_object.metadata:update", "data:data_object.metadata:delete", "data:data_object:manage", "data:data_object:query", "data:application:create", "data:application:browse", "data:application:read", "data:application:manage", "data:data_system:create", "data:data_system:browse", "data:data_system:read", "data:data_system:manage", "data:tag:create", "data:tag:browse", "data:tag:manage", "data:classification:create", "data:classification:browse", "data:classification:read", "data:classification:update", "data:classification:delete", "data:classification:manage", "data:sensitivity:create", "data:sensitivity:browse", "data:sensitivity:read", "data:sensitivity:update", "data:sensitivity:delete", "data:sensitivity:manage", "data:compute:develop", "data:compute:read", "data:search", "self", "iam:organization:create", "iam:organization:delete", "iam:organization:manage", "iam:organization:member", "iam:user:login", "iam:user:refresh", "iam:user:logout", "iam:user:reset", "iam:user:create", "iam:user:delete", "iam:user:manage", "iam:user:browse", "iam:role:create", "iam:role:browse", "iam:role:read", "iam:role:manage", "iam:policy:create", "iam:policy:browse", "iam:policy:read", "iam:policy:manage", "iam:policy:delete", "data:link:browse", "iam:key:manage"], "resource": ["urn:meshx::iam:root:policy:*", "urn:meshx::iam:root:policy", "urn:meshx::iam:root:role:*", "urn:meshx::iam:root:role", "urn:meshx::iam:root:user"], "condition": [], "effect": "allow"}]}
+      responses:
+        "200":
+          application/json: {"version": "2022-10-01", "identifier": "48935330-7cfd-4590-91d0-3154649ec4b4", "name": "<value>", "statements": [{"sid": "<id>", "action": [], "resource": ["<value 1>", "<value 2>", "<value 3>"], "effect": "allow"}]}
+        "422":
+          application/json: {}
+    keycloak_user_viewer:
+      parameters:
+        header:
+          x-org: "<value>"
+      requestBody:
+        application/json: {"version": "2022-10-01", "name": "KeycloakUser", "statements": [{"sid": "KEYCLOAK_USER_VIEWER", "action": ["iam:user:browse"], "resource": ["urn:meshx::iam:root:user"], "condition": [], "effect": "allow"}]}
+      responses:
+        "200":
+          application/json: {"version": "2022-10-01", "identifier": "48935330-7cfd-4590-91d0-3154649ec4b4", "name": "<value>", "statements": [{"sid": "<id>", "action": [], "resource": ["<value 1>", "<value 2>", "<value 3>"], "effect": "allow"}]}
+        "422":
+          application/json: {}
+  delete_policy_api_iam_policy_delete:
+    speakeasy-default-delete-policy-api-iam-policy-delete:
+      parameters:
+        query:
+          identifier: "92450b41-a908-4477-81bb-e2721e2e1650"
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "422":
+          application/json: {}
+  get_all_policies_api_iam_policy_list_get:
+    speakeasy-default-get-all-policies-api-iam-policy-list-get:
+      parameters:
+        query:
+          page: 1
+          page_size: 10
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"policies": [{"version": "2022-10-01", "identifier": "87f35d28-2d0a-4920-b1b5-40e3841c84d2", "name": "<value>", "statements": []}]}
+        "422":
+          application/json: {}
+  status_api__well_known_status_get:
+    speakeasy-default-status-api-well-known-status-get:
+      responses:
+        "200":
+          application/json: {"key": "<value>"}
+  get_error_codes__api__well_known_error_codes_get:
+    speakeasy-default-get-error-codes-api-well-known-error-codes-get:
+      parameters:
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"errors": [{"class_name": "<value>", "type": "<value>", "title": "<value>"}]}
+        "422":
+          application/json: {}
+  get_permissions__api__well_known_permissions_get:
+    speakeasy-default-get-permissions-api-well-known-permissions-get:
+      parameters:
+        header:
+          x-org: "<value>"
+      responses:
+        "200":
+          application/json: {"routes": []}
+        "422":
+          application/json: {}
+examplesVersion: 1.0.2

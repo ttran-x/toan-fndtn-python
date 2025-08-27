@@ -1,0 +1,21 @@
+workflowVersion: 1.0.0
+speakeasyVersion: latest
+sources:
+    FNDTN Backend:
+        inputs:
+            - location: ../openapi.json
+        transformations:
+            - removeUnused: true
+        output: .speakeasy/out.openapi.yaml
+        registry:
+            location: registry.speakeasyapi.dev/toan/sample/fndtn-backend
+targets:
+    toan-fndtn:
+        target: python
+        source: FNDTN Backend
+        codeSamples:
+            registry:
+                location: registry.speakeasyapi.dev/toan/sample/fndtn-backend-python-code-samples
+            labelOverride:
+                fixedValue: Python (SDK)
+            blocking: false

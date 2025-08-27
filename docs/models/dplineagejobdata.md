@@ -1,0 +1,21 @@
+# DPLineageJobData
+
+DP lineage job data.
+
+
+## Fields
+
+| Field                                                                | Type                                                                 | Required                                                             | Description                                                          |
+| -------------------------------------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| `uuid`                                                               | *str*                                                                | :heavy_check_mark:                                                   | N/A                                                                  |
+| `type`                                                               | *str*                                                                | :heavy_check_mark:                                                   | N/A                                                                  |
+| `engine`                                                             | *str*                                                                | :heavy_check_mark:                                                   | N/A                                                                  |
+| `engine_version`                                                     | *OptionalNullable[str]*                                              | :heavy_minus_sign:                                                   | N/A                                                                  |
+| `created_at`                                                         | [date](https://docs.python.org/3/library/datetime.html#date-objects) | :heavy_check_mark:                                                   | N/A                                                                  |
+| `updated_at`                                                         | [date](https://docs.python.org/3/library/datetime.html#date-objects) | :heavy_check_mark:                                                   | N/A                                                                  |
+| `name`                                                               | *str*                                                                | :heavy_check_mark:                                                   | N/A                                                                  |
+| `action_name`                                                        | *str*                                                                | :heavy_check_mark:                                                   | N/A                                                                  |
+| `description`                                                        | *OptionalNullable[str]*                                              | :heavy_minus_sign:                                                   | N/A                                                                  |
+| `current_version_uuid`                                               | *str*                                                                | :heavy_check_mark:                                                   | N/A                                                                  |
+| `inputs`                                                             | List[[models.DPLineageJobDataIO](../models/dplineagejobdataio.md)]   | :heavy_check_mark:                                                   | N/A                                                                  |
+| `outputs`                                                            | List[[models.DPLineageJobDataIO](../models/dplineagejobdataio.md)]   | :heavy_check_mark:                                                   | N/A                                                                  |

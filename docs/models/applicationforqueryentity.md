@@ -1,0 +1,10 @@
+# ApplicationForQueryEntity
+
+
+## Fields
+
+| Field                                                                                              | Type                                                                                               | Required                                                                                           | Description                                                                                        |
+| -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| `identifier`                                                                                       | *str*                                                                                              | :heavy_check_mark:                                                                                 | N/A                                                                                                |
+| `name`                                                                                             | *str*                                                                                              | :heavy_check_mark:                                                                                 | N/A                                                                                                |
+| `data_products`                                                                                    | List[[models.ApplicationDataProductParentEntity](../models/applicationdataproductparententity.md)] | :heavy_check_mark:                                                                                 | N/A                                                                                                |
